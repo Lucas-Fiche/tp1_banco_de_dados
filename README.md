@@ -1,6 +1,7 @@
 # Programa de Sócio Torcedor
 
 <details>
+
   ## 1. Introdução ao Programa de Sócio Torcedor
 
   O programa de Sócio Torcedor é uma iniciativa de clubes de futebol voltada para o engajamento e fidelização dos seus torcedores, oferecendo a eles a oportunidade de apoiar diretamente o clube e, em troca, obter benefícios exclusivos. Comum em diversos times ao redor do mundo, esse programa se tornou uma fonte importante de receita para as equipes, complementando os ganhos com venda de ingressos, patrocínios e direitos de transmissão.
@@ -75,6 +76,8 @@
   </ul>
 </details>
 
+<details>
+
 # Modelo Conceitual (MER)
 
 ## Introdução
@@ -141,6 +144,9 @@ Após definir as entidades e relacionamentos, ajustes foram feitos para melhorar
 ## Conclusão do Modelo Conceitual
 
 O modelo conceitual construído para o programa "Camisa 7" do Botafogo proporciona uma base clara e bem estruturada para o sistema de banco de dados. Ele descreve como cada entidade se relaciona com as demais e garante que todas as informações relevantes estão organizadas de forma lógica e compreensível. Esse modelo é fundamental para a próxima etapa do desenvolvimento do banco de dados, onde será criado o Modelo Lógico, que traduzirá essa visão conceitual em um formato mais próximo da implementação no banco de dados.
+</details>
+
+<details>
 
 # Modelo Lógico - Diagrama de Engenharia de Informação
 
@@ -235,6 +241,9 @@ O Modelo Lógico para o programa de sócios torcedores "Camisa 7" foi desenvolvi
 
 - A tabela `Participacao_Evento` conecta `Sócio` e `Evento_Exclusivo`, permitindo que os sócios se inscrevam para participar de eventos exclusivos e que o clube possa monitorar a participação.
 - Isso permite ao sistema registrar e gerenciar a participação dos sócios em eventos especiais oferecidos pelo programa.
+</details>
+
+<details>
 
 # Modelo Físico
 
@@ -318,13 +327,13 @@ O Modelo Físico para o programa de sócios torcedores "Camisa 7" foi projetado 
 
 
 O Modelo Físico transforma o projeto conceitual e lógico em uma estrutura prática e implementável. Ele define como cada dado será armazenado e acessado, garantindo a integridade, consistência e organização do banco de dados para o programa "Camisa 7". Com essa estrutura física implementada no SGBD, o sistema será capaz de gerenciar as inscrições, pagamentos, benefícios, ingressos e eventos dos sócios de maneira eficiente e escalável.
+<details>
 
+<details>
 
 # Etapas de Normalização e Estrutura do Banco de Dados
 
-
 ## Introdução
-
 
 A normalização de dados é um processo essencial na modelagem de bancos de dados relacionais. Ela organiza as tabelas e elimina redundâncias, garantindo que os dados sejam armazenados de forma eficiente e evitando inconsistências. No caso do programa de sócios torcedores "Camisa 7", a normalização foi aplicada para assegurar a integridade dos dados e otimizar o desempenho do banco de dados.
 
@@ -353,7 +362,6 @@ A 2FN é aplicada principalmente a tabelas com chaves primárias compostas. No m
 
 ### 3FN - Terceira Forma Normal
 
-
 Para uma tabela estar na Terceira Forma Normal (3FN), ela precisa:
 - Estar na 2FN.
 - Ter todos os atributos dependentes somente da chave primária, eliminando dependências transitivas.
@@ -362,11 +370,9 @@ No banco de dados "Camisa 7", todas as tabelas foram normalizadas até a 3FN, ga
 
 ### Confirmação de Normalização
 
-
 Após a aplicação das três formas normais, o banco de dados do programa "Camisa 7" está totalmente normalizado até a Terceira Forma Normal (3FN). Isso garante que os dados sejam organizados de forma lógica e eficiente, com eliminação de redundâncias e consistência referencial.
 
 ## Estrutura do Banco de Dados no Programa "Camisa 7"
-
 
 O banco de dados foi projetado para estruturar e organizar todos os dados necessários para o funcionamento do programa de sócios torcedores "Camisa 7", conforme descrito nas seções de normalização e modelagem. 
 
@@ -402,14 +408,14 @@ O Modelo Físico foi projetado para permitir o funcionamento completo do program
 
 ## Conclusão
 
-
 A estrutura do banco de dados para o programa "Camisa 7" foi cuidadosamente normalizada até a Terceira Forma Normal (3FN), garantindo que todos os dados sejam armazenados de forma eficiente e consistente. O Modelo Físico transforma o projeto conceitual e lógico em uma estrutura prática e implementável, assegurando que o sistema seja capaz de gerenciar as inscrições, pagamentos, benefícios, ingressos e eventos dos sócios de maneira eficiente e escalável.
+</details>
+
+<details>
 
 # Programa de Sócios "Camisa 7" - Banco de Dados
 
-
 ## Introdução ao DDL
-
 
 DDL (Data Definition Language) é uma linguagem utilizada no SQL para definir e gerenciar a estrutura de um banco de dados. Por meio de comandos DDL, é possível criar, alterar e excluir tabelas e outros objetos no banco de dados. Os comandos DDL incluem `CREATE`, `ALTER`, `DROP`, entre outros, e são fundamentais para a construção da estrutura física de um banco de dados relacional.
 
@@ -523,6 +529,9 @@ CREATE TABLE Plano_Beneficio (
     FOREIGN KEY (ID_Beneficio) REFERENCES Benefício(ID_Beneficio)
 );
 ```
+</details>
+
+<details>
 
 # Inserção de Dados - Programa de Sócios "Camisa 7"
 
@@ -607,6 +616,9 @@ VALUES
 (3, 2),
 (3, 3);
 ```
+</details>
+
+<details>
 
 ## Consultas SQL, Relatórios e Views
 
