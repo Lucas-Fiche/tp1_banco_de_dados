@@ -1,6 +1,8 @@
 # Programa de Sócio Torcedor
 
+
 ## 1. Introdução ao Programa de Sócio Torcedor
+
 
 O programa de Sócio Torcedor é uma iniciativa de clubes de futebol voltada para o engajamento e fidelização dos seus torcedores, oferecendo a eles a oportunidade de apoiar diretamente o clube e, em troca, obter benefícios exclusivos. Comum em diversos times ao redor do mundo, esse programa se tornou uma fonte importante de receita para as equipes, complementando os ganhos com venda de ingressos, patrocínios e direitos de transmissão.
 
@@ -10,6 +12,7 @@ Além dos benefícios diretos, o Sócio Torcedor incentiva uma base de fãs mais
 
 ### Exemplo para o Trabalho: Programa de Sócios "Camisa 7" do Botafogo de Futebol e Regatas
 
+
 Para o desenvolvimento do presente trabalho, utilizaremos como exemplo o programa de Sócio Torcedor do Botafogo de Futebol e Regatas, denominado "Camisa 7". Este programa é direcionado aos torcedores do Botafogo e oferece uma série de vantagens para aqueles que se tornam sócios, fortalecendo o vínculo entre o clube e sua torcida apaixonada.
 
 O programa "Camisa 7" concede aos sócios benefícios como prioridade e descontos na compra de ingressos, vantagens em produtos e serviços oficiais, acesso a eventos e experiências exclusivas, além de promoções junto a parceiros comerciais. Essa estrutura proporciona um caso rico para modelagem de banco de dados, uma vez que envolve uma diversidade de informações sobre o relacionamento entre o torcedor e o clube, planos de associação, regras de uso e diferentes tipos de benefícios e acessos.
@@ -18,20 +21,23 @@ No decorrer do trabalho, focaremos na criação de uma estrutura de banco de dad
 
 ## 2. Resumo sobre o Negócio
 
+
 O programa de sócios torcedores "Camisa 7" do Botafogo de Futebol e Regatas visa fortalecer a relação entre o clube e seus torcedores, oferecendo benefícios exclusivos para aqueles que aderirem ao programa. Atuando no setor esportivo e de entretenimento, o programa permite que os torcedores apoiem diretamente o clube, contribuindo para a sustentabilidade financeira e participando de um modelo de engajamento que vai além dos jogos.
 
 ### Ramo de Atuação
+
 
 O "Camisa 7" opera no mercado de fidelização esportiva, focado em oferecer vantagens exclusivas aos sócios torcedores, como prioridade na compra de ingressos, descontos em produtos oficiais, acesso a eventos exclusivos e outras experiências voltadas para os fãs.
 
 ### Tipos de Serviços e Benefícios
 
+
 <ul>
-	<li>Prioridade e desconto na compra de ingressos para jogos do Botafogo.
-	<li>Descontos em produtos oficiais do clube e de parceiros.
-	<li>Acesso a áreas exclusivas do estádio.
-	<li>Possibilidade de participar de eventos e experiências únicas com o clube, como visitas ao estádio e encontros com jogadores.
-	<li>Benefícios relacionados a parceiros comerciais (lojas, restaurantes, academias, etc.).
+  <li>Prioridade e desconto na compra de ingressos para jogos do Botafogo.
+  <li>Descontos em produtos oficiais do clube e de parceiros.
+  <li>Acesso a áreas exclusivas do estádio.
+  <li>Possibilidade de participar de eventos e experiências únicas com o clube, como visitas ao estádio e encontros com jogadores.
+  <li>Benefícios relacionados a parceiros comerciais (lojas, restaurantes, academias, etc.).
 </ul>
 
 ### Principais Atores
@@ -44,6 +50,7 @@ O "Camisa 7" opera no mercado de fidelização esportiva, focado em oferecer van
 
 ### Dados Essenciais
 
+
 <ul>
 	<li>Informações pessoais dos sócios (nome, CPF, endereço, e-mail…).
 	<li>Dados de adesão ao programa (tipo de plano, data de adesão, status…).
@@ -54,6 +61,7 @@ O "Camisa 7" opera no mercado de fidelização esportiva, focado em oferecer van
 
 ### Fluxos de Processos Cotidianos
 
+
 <ul>
 	<li>Adesão e Cancelamento**: Processo pelo qual o torcedor adere ao programa ou cancela sua inscrição.
  	<li>Gerenciamento de Benefícios**: Atribuição e gestão dos benefícios que cada sócio tem direito, de acordo com o plano.
@@ -63,6 +71,7 @@ O "Camisa 7" opera no mercado de fidelização esportiva, focado em oferecer van
 
 ### Regras e Restrições
 
+
 <ul>
 	 <li>Cada sócio tem direito a um único cadastro, identificado pelo CPF.
 	 <li>O sócio deve manter as mensalidades em dia para usufruir dos benefícios.
@@ -70,6 +79,7 @@ O "Camisa 7" opera no mercado de fidelização esportiva, focado em oferecer van
 	 <li>As vantagens e os preços podem variar conforme o plano escolhido pelo torcedor.
 </ul>
 # Modelo Conceitual (MER)
+
 
 ## Introdução
 
@@ -95,7 +105,9 @@ Neste trabalho, o Modelo Conceitual do sistema foi desenvolvido para organizar o
 
 ### Principais Etapas do Desenvolvimento do Modelo Conceitual:
 
+
 #### Identificação das Entidades:
+
 
 As principais entidades identificadas foram:
 <ul>
@@ -110,18 +122,23 @@ As principais entidades identificadas foram:
 
 #### Definição dos Atributos:
 
-Cada entidade recebeu uma série de atributos que descrevem suas características principais. Por exemplo:
-- A entidade **Sócio** inclui atributos como `ID_Socio` (chave primária), `Nome`, `CPF`, `Endereço`, `Telefone`, `E-mail`, `Data_Adesao`, `Status_Socio`, e `Pontos_Socio`.
-- A entidade **Plano** inclui atributos como `ID_Plano` (chave primária), `Nome_Plano`, `Valor_Mensal`, `Valor_Anual` e `Descrição`.
 
+Cada entidade recebeu uma série de atributos que descrevem suas características principais. Por exemplo:
+<ul>
+  <li> A entidade **Sócio** inclui atributos como `ID_Socio` (chave primária), `Nome`, `CPF`, `Endereço`, `Telefone`, `E-mail`, `Data_Adesao`, `Status_Socio`, e `Pontos_Socio`.
+  <li> A entidade **Plano** inclui atributos como `ID_Plano` (chave primária), `Nome_Plano`, `Valor_Mensal`, `Valor_Anual` e `Descrição`.
+</ul>
 #### Definição dos Relacionamentos:
 
+
 Para capturar as conexões entre as entidades, foram definidos vários relacionamentos, incluindo:
-- **ASSOCIADO_A**: Relaciona Sócio e Plano, indicando que cada sócio é associado a um único plano, mas um plano pode ter vários sócios.
-- **REALIZA**: Relaciona Sócio e Pagamento, indicando que um sócio pode fazer vários pagamentos.
-- **COMPRA**: Relaciona Sócio e Ingresso, indicando que um sócio pode comprar vários ingressos.
-- **PARTICIPA**: Relaciona Sócio e Evento_Exclusivo via uma tabela intermediária, permitindo que sócios se inscrevam para participar de eventos exclusivos.
-- **INCLUI**: Representa a relação N:N entre Plano e Benefício. Essa relação indica que um plano pode incluir vários benefícios, e um benefício pode estar disponível em vários planos.
+<ul>
+  <li> **ASSOCIADO_A**: Relaciona Sócio e Plano, indicando que cada sócio é associado a um único plano, mas um plano pode ter vários sócios.
+  <li> **REALIZA**: Relaciona Sócio e Pagamento, indicando que um sócio pode fazer vários pagamentos.
+  <li> **COMPRA**: Relaciona Sócio e Ingresso, indicando que um sócio pode comprar vários ingressos.
+  <li> **PARTICIPA**: Relaciona Sócio e Evento_Exclusivo via uma tabela intermediária, permitindo que sócios se inscrevam para participar de eventos exclusivos.
+  <li> **INCLUI**: Representa a relação N:N entre Plano e Benefício. Essa relação indica que um plano pode incluir vários benefícios, e um benefício pode estar disponível em vários planos.
+</ul>
 
 #### Ajustes e Correções no Modelo Conceitual:
 
@@ -143,19 +160,24 @@ No Modelo Lógico, cada entidade do modelo conceitual se torna uma tabela, e os 
 
 ### Tabelas e Atributos
 
-- Cada entidade do modelo conceitual é convertida em uma tabela com atributos bem definidos.
-- Cada tabela possui uma chave primária (PK), que é um identificador único de cada registro, além de outros atributos que representam as informações que serão armazenadas.
-  
-  **Exemplo**: A entidade `Sócio` se tornou a tabela `Sócio`, contendo atributos como `ID_Socio` (PK), `Nome`, `CPF`, `Endereço`, `Pontos_Socio`, entre outros.
+<ul>
+  <li> Cada entidade do modelo conceitual é convertida em uma tabela com atributos bem definidos.
+  <li> Cada tabela possui uma chave primária (PK), que é um identificador único de cada registro, além de outros atributos que representam as informações que serão armazenadas.
+</ul>
+
+**Exemplo**: A entidade `Sócio` se tornou a tabela `Sócio`, contendo atributos como `ID_Socio` (PK), `Nome`, `CPF`, `Endereço`, `Pontos_Socio`, entre outros.
 
 ### Chaves Estrangeiras (FK)
 
-- Para conectar as tabelas e garantir a integridade referencial, foram adicionadas chaves estrangeiras nas tabelas dependentes.
-- As chaves estrangeiras estabelecem relacionamentos entre as tabelas, apontando para a chave primária de outra tabela.
-  
-  **Exemplo**: Na tabela `Pagamento`, o campo `ID_Socio` é uma chave estrangeira que se conecta à chave primária `ID_Socio` na tabela `Sócio`. Isso indica que cada pagamento está associado a um sócio específico.
+<ul>
+  <li> Para conectar as tabelas e garantir a integridade referencial, foram adicionadas chaves estrangeiras nas tabelas dependentes.
+  <li> As chaves estrangeiras estabelecem relacionamentos entre as tabelas, apontando para a chave primária de outra tabela.
+</ul>
+
+**Exemplo**: Na tabela `Pagamento`, o campo `ID_Socio` é uma chave estrangeira que se conecta à chave primária `ID_Socio` na tabela `Sócio`. Isso indica que cada pagamento está associado a um sócio específico.
 
 ### Relacionamentos com Tabelas Intermediárias para Relacionamentos ‘N:N’
+
 
 - Relacionamentos muitos-para-muitos (N:N) foram implementados usando tabelas intermediárias, chamadas de tabelas associativas. Cada tabela intermediária possui chaves estrangeiras que se conectam a duas tabelas principais, estabelecendo o relacionamento N:N de forma indireta.
   
@@ -166,6 +188,7 @@ No Modelo Lógico, cada entidade do modelo conceitual se torna uma tabela, e os 
 
 ### Uso de Cardinalidades com Formato "Pé de Galinha"
 
+
 No modelo lógico, os relacionamentos entre as tabelas são representados com linhas e símbolos que indicam a cardinalidade, utilizando o formato "pé de galinha":
 - **‘1:N’**: Indica que uma ocorrência em uma tabela pode estar relacionada a várias ocorrências em outra tabela.
 - **‘N:N’**: Indica um relacionamento muitos-para-muitos, que requer uma tabela intermediária.
@@ -173,6 +196,7 @@ No modelo lógico, os relacionamentos entre as tabelas são representados com li
   **Exemplo**: O relacionamento entre `Sócio` e `Plano` é 1:N (um sócio pertence a um único plano, mas um plano pode ter vários sócios), enquanto o relacionamento entre `Plano` e `Benefício` é N:N e é implementado através da tabela intermediária `Plano_Beneficio`.
 
 ## Tabelas e Relacionamentos Principais
+
 
 | Tabela 1        | Tabela 2        | Cardinalidade | Implementação               | Descrição                                                                                   |
 |-----------------|-----------------|---------------|-----------------------------|---------------------------------------------------------------------------------------------|
@@ -190,32 +214,39 @@ O Modelo Lógico para o programa de sócios torcedores "Camisa 7" foi desenvolvi
 
 ### Gerenciamento de Sócios e Planos
 
+
 - A tabela `Sócio` está ligada à tabela `Plano` para garantir que cada sócio esteja associado a um plano específico, e os detalhes do plano, como valores mensal e anual, estão disponíveis na tabela `Plano`.
 - Essa estrutura facilita o gerenciamento dos planos dos sócios e permite a atualização dos dados conforme necessário.
 
 ### Controle de Pagamentos
+
 
 - A tabela `Pagamento` está relacionada a `Sócio` e `Plano`, permitindo registrar e monitorar os pagamentos realizados por cada sócio para o plano específico.
 - A chave estrangeira `ID_Socio` em `Pagamento` conecta cada pagamento a um sócio específico, enquanto `ID_Plano` conecta ao plano relacionado, garantindo que o sistema possa verificar o status de pagamento de cada sócio.
 
 ### Distribuição de Ingressos e Setores do Estádio
 
+
 - Com a tabela intermediária `Disponibilidade_Ingresso`, é possível definir a quantidade de ingressos disponíveis para cada setor do estádio em diferentes jogos.
 - As conexões entre `Ingresso`, `Setor_Estadio` e `Disponibilidade_Ingresso` permitem gerenciar a disponibilidade de ingressos e organizar a venda por setor.
 
 ### Benefícios Associados aos Planos
+
 
 - A tabela `Plano_Beneficio` conecta `Plano` e `Benefício`, permitindo que cada plano ofereça um conjunto de benefícios específicos.
 - A estrutura N:N garante que benefícios possam ser oferecidos em múltiplos planos, e que cada plano possa ter vários benefícios, oferecendo flexibilidade no gerenciamento das vantagens dos sócios.
 
 ### Eventos Exclusivos para Sócios
 
+
 - A tabela `Participacao_Evento` conecta `Sócio` e `Evento_Exclusivo`, permitindo que os sócios se inscrevam para participar de eventos exclusivos e que o clube possa monitorar a participação.
 - Isso permite ao sistema registrar e gerenciar a participação dos sócios em eventos especiais oferecidos pelo programa.
 
 # Modelo Físico
 
+
 ## Introdução
+
 
 O Modelo Físico é a etapa final de modelagem de dados, onde os conceitos do modelo lógico são traduzidos diretamente para o formato de um banco de dados relacional. Essa etapa envolve a definição detalhada de cada tabela, incluindo os tipos de dados, restrições, chaves primárias e estrangeiras, e qualquer regra adicional necessária para garantir a integridade e consistência dos dados.
 
@@ -223,12 +254,15 @@ Neste trabalho sobre o programa de sócios torcedores "Camisa 7" do Botafogo, o 
 
 ## Estrutura e Aplicação do Modelo Físico ao Programa de Sócios Torcedores
 
+
 ### Definição de Tabelas com Tipos de Dados Específicos
+
 
 - Cada entidade do modelo lógico foi convertida em uma tabela física com um conjunto de campos (atributos).
 - Os tipos de dados foram escolhidos com base na natureza das informações armazenadas: por exemplo, `VARCHAR` para textos como nome e e-mail, `DATE` para datas, `DECIMAL` para valores monetários e `BOOLEAN` para status.
 
 ### Chaves Primárias e Unicidade dos Registros
+
 
 - Em cada tabela, um campo foi escolhido como chave primária (PK) para garantir que cada registro seja único. As chaves primárias permitem identificar cada linha de maneira exclusiva.
 - Em tabelas intermediárias (como `Plano_Beneficio` para o relacionamento N:N entre `Plano` e `Benefício`), uma chave primária composta foi definida usando múltiplos campos para garantir a unicidade das combinações entre entidades.
@@ -239,15 +273,18 @@ Neste trabalho sobre o programa de sócios torcedores "Camisa 7" do Botafogo, o 
 
 ### Chaves Estrangeiras e Relacionamentos
 
+
 - Para conectar as tabelas de maneira lógica e garantir a integridade referencial, foram definidas chaves estrangeiras (FK) que referenciam as chaves primárias de outras tabelas.
 - Isso garante que os dados em uma tabela estejam sempre relacionados de forma consistente a dados de outras tabelas.
 
 ### Tabelas Intermediárias para Relacionamentos ‘N:N’
 
+
 - Relacionamentos muitos-para-muitos, como entre `Planos` e `Benefícios` ou `Sócios` e `Eventos Exclusivos`, foram implementados usando tabelas intermediárias.
 - Essas tabelas intermediárias, como `Plano_Beneficio` e `Participacao_Evento`, contêm chaves estrangeiras para ambas as tabelas principais, criando o relacionamento N:N de forma indireta.
 
 ### Restrições e Domínios para Garantir a Integridade dos Dados
+
 
 - Foram aplicadas restrições adicionais, como `CHECK` para validar valores numéricos (por exemplo, garantir que os valores de descontos estejam entre 0 e 1), `UNIQUE` para garantir que determinados campos sejam únicos (por exemplo, CPF e e-mail dos sócios), e `DEFAULT` para definir valores padrão em campos booleanos e inteiros.
 - Essas restrições ajudam a prevenir erros e manter a integridade dos dados no sistema.
@@ -256,48 +293,59 @@ Neste trabalho sobre o programa de sócios torcedores "Camisa 7" do Botafogo, o 
 
 ## Como o Modelo Físico se Relaciona com o Funcionamento do Programa "Camisa 7"
 
+
 O Modelo Físico para o programa de sócios torcedores "Camisa 7" foi projetado para estruturar e organizar todos os dados necessários para o funcionamento do sistema. Aqui está como ele permite que o programa opere:
 
 ### Cadastro e Gestão de Sócios
+
 
 - A tabela `Sócio` armazena todas as informações dos membros, incluindo o plano de associação e os pontos acumulados.
 - As restrições garantem que o cadastro seja único, evitando duplicações de CPF e e-mail.
 
 ### Configuração e Atribuição de Planos e Benefícios
 
+
 - `Plano` e `Benefício` são tabelas separadas que definem cada plano de associação e os benefícios correspondentes.
 - A tabela intermediária `Plano_Beneficio` permite associar múltiplos benefícios a um plano específico, proporcionando flexibilidade na criação de diferentes pacotes para sócios.
 
 ### Controle de Pagamentos
 
+
 - A tabela `Pagamento` armazena cada transação feita pelos sócios, conectando cada pagamento a um sócio específico. Isso permite monitorar o status de pagamento e o histórico financeiro de cada membro.
 
 ### Distribuição de Ingressos e Setores do Estádio
+
 
 - `Ingresso` e `Setor_Estadio` permitem a compra de ingressos para eventos, com informações sobre descontos e setores disponíveis.
 - `Disponibilidade_Ingresso` gerencia a quantidade de ingressos disponíveis em cada setor, ajudando no controle da ocupação dos espaços.
 
 ### Gestão de Eventos Exclusivos para Sócios
 
+
 - `Evento_Exclusivo` armazena eventos que são acessíveis apenas aos sócios.
 - A tabela `Participacao_Evento` permite registrar quais sócios participam de quais eventos, facilitando a organização e o controle de participação em eventos especiais.
 
 ## Conclusão
+
 
 O Modelo Físico transforma o projeto conceitual e lógico em uma estrutura prática e implementável. Ele define como cada dado será armazenado e acessado, garantindo a integridade, consistência e organização do banco de dados para o programa "Camisa 7". Com essa estrutura física implementada no SGBD, o sistema será capaz de gerenciar as inscrições, pagamentos, benefícios, ingressos e eventos dos sócios de maneira eficiente e escalável.
 
 
 # Etapas de Normalização e Estrutura do Banco de Dados
 
+
 ## Introdução
+
 
 A normalização de dados é um processo essencial na modelagem de bancos de dados relacionais. Ela organiza as tabelas e elimina redundâncias, garantindo que os dados sejam armazenados de forma eficiente e evitando inconsistências. No caso do programa de sócios torcedores "Camisa 7", a normalização foi aplicada para assegurar a integridade dos dados e otimizar o desempenho do banco de dados.
 
 ## Etapas de Normalização
 
+
 Abaixo estão as principais etapas de normalização seguidas para garantir que os dados estivessem em conformidade com as regras de normalização. No final do processo, os dados já estavam organizados de maneira a eliminar redundâncias e garantir a consistência.
 
 ### 1FN - Primeira Forma Normal
+
 
 Para uma tabela estar na Primeira Forma Normal (1FN), ela precisa:
 - Ter somente valores atômicos, ou seja, não conter grupos repetitivos ou valores multivalorados.
@@ -307,6 +355,7 @@ No banco de dados do programa "Camisa 7", todas as tabelas estão na 1FN, pois c
 
 ### 2FN - Segunda Forma Normal
 
+
 Para uma tabela estar na Segunda Forma Normal (2FN), ela deve:
 - Estar na 1FN.
 - Ter todos os atributos totalmente dependentes da chave primária, eliminando dependências parciais.
@@ -314,6 +363,7 @@ Para uma tabela estar na Segunda Forma Normal (2FN), ela deve:
 A 2FN é aplicada principalmente a tabelas com chaves primárias compostas. No modelo do "Camisa 7", todas as tabelas que possuem chaves primárias compostas (como tabelas intermediárias para relacionamentos N:N) foram organizadas para que cada atributo dependa totalmente da chave primária composta.
 
 ### 3FN - Terceira Forma Normal
+
 
 Para uma tabela estar na Terceira Forma Normal (3FN), ela precisa:
 - Estar na 2FN.
@@ -323,13 +373,16 @@ No banco de dados "Camisa 7", todas as tabelas foram normalizadas até a 3FN, ga
 
 ### Confirmação de Normalização
 
+
 Após a aplicação das três formas normais, o banco de dados do programa "Camisa 7" está totalmente normalizado até a Terceira Forma Normal (3FN). Isso garante que os dados sejam organizados de forma lógica e eficiente, com eliminação de redundâncias e consistência referencial.
 
 ## Estrutura do Banco de Dados no Programa "Camisa 7"
 
+
 O banco de dados foi projetado para estruturar e organizar todos os dados necessários para o funcionamento do programa de sócios torcedores "Camisa 7", conforme descrito nas seções de normalização e modelagem. 
 
 ### Tabelas e Relacionamentos Principais
+
 
 Abaixo estão os principais relacionamentos e suas implementações na estrutura física do banco de dados:
 
@@ -345,6 +398,7 @@ Abaixo estão os principais relacionamentos e suas implementações na estrutura
 
 ### Como a Estrutura Suporta o Programa "Camisa 7"
 
+
 O Modelo Físico foi projetado para permitir o funcionamento completo do programa de sócios torcedores "Camisa 7". Abaixo estão algumas das funcionalidades e como a estrutura do banco de dados as suporta:
 
 - **Cadastro e Gestão de Sócios**: A tabela `Sócio` armazena todas as informações dos membros, incluindo o plano de associação e os pontos acumulados, garantindo que o cadastro seja único, sem duplicações de CPF e e-mail.
@@ -359,11 +413,14 @@ O Modelo Físico foi projetado para permitir o funcionamento completo do program
 
 ## Conclusão
 
+
 A estrutura do banco de dados para o programa "Camisa 7" foi cuidadosamente normalizada até a Terceira Forma Normal (3FN), garantindo que todos os dados sejam armazenados de forma eficiente e consistente. O Modelo Físico transforma o projeto conceitual e lógico em uma estrutura prática e implementável, assegurando que o sistema seja capaz de gerenciar as inscrições, pagamentos, benefícios, ingressos e eventos dos sócios de maneira eficiente e escalável.
 
 # Programa de Sócios "Camisa 7" - Banco de Dados
 
+
 ## Introdução ao DDL
+
 
 DDL (Data Definition Language) é uma linguagem utilizada no SQL para definir e gerenciar a estrutura de um banco de dados. Por meio de comandos DDL, é possível criar, alterar e excluir tabelas e outros objetos no banco de dados. Os comandos DDL incluem `CREATE`, `ALTER`, `DROP`, entre outros, e são fundamentais para a construção da estrutura física de um banco de dados relacional.
 
@@ -371,7 +428,7 @@ Neste trabalho, o DDL foi utilizado para criar as tabelas que representam as pri
 
 Abaixo está o código DDL para a criação do banco de dados do programa "Camisa 7", incluindo todas as tabelas e seus relacionamentos:
 
-```sql
+```
 -- Criação do Banco de Dados 
 CREATE DATABASE ProgramaSocioCamisa7; 
 USE ProgramaSocioCamisa7;
@@ -476,6 +533,7 @@ CREATE TABLE Plano_Beneficio (
     FOREIGN KEY (ID_Plano) REFERENCES Plano(ID_Plano),
     FOREIGN KEY (ID_Beneficio) REFERENCES Benefício(ID_Beneficio)
 );
+```
 
 # Inserção de Dados - Programa de Sócios "Camisa 7"
 
@@ -485,7 +543,7 @@ A DML (Data Manipulation Language) é a linguagem usada no SQL para manipular os
 
 Para o programa de sócios torcedores "Camisa 7", foi feito o uso da DML para realizar a inserção inicial de dados em cada tabela, com o objetivo de popular o banco de dados com informações sobre planos de sócios, membros cadastrados, benefícios, pagamentos, ingressos, setores do estádio, eventos exclusivos e associações de benefícios com planos. Abaixo está o código DML utilizado para a inserção de dados em cada uma das tabelas, garantindo um conjunto de dados inicial para testes e operações do sistema.
 
-```sql
+```
 -- Inserção de dados na tabela Plano
 INSERT INTO Plano (ID_Plano, Nome_Plano, Valor_mensal, Valor_anual, Descrição)
 VALUES
@@ -559,7 +617,7 @@ VALUES
 (3, 1),
 (3, 2),
 (3, 3);
-
+```
 
 ## Consultas SQL, Relatórios e Views
 
