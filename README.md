@@ -2,6 +2,8 @@
 
 <details>
 
+<summary>📘 1. Introdução ao Programa de Sócio Torcedor</summary>
+
   ## 1. Introdução ao Programa de Sócio Torcedor
 
   O programa de Sócio Torcedor é uma iniciativa de clubes de futebol voltada para o engajamento e fidelização dos seus torcedores, oferecendo a eles a oportunidade de apoiar diretamente o clube e, em troca, obter benefícios exclusivos. Comum em diversos times ao redor do mundo, esse programa se tornou uma fonte importante de receita para as equipes, complementando os ganhos com venda de ingressos, patrocínios e direitos de transmissão.
@@ -78,6 +80,8 @@
 
 <details>
 
+<summary>📘 2. Modelo Conceitual (MER) </summary>
+
 # Modelo Conceitual (MER)
 
 ## Introdução
@@ -147,6 +151,8 @@ O modelo conceitual construído para o programa "Camisa 7" do Botafogo proporcio
 </details>
 
 <details>
+
+<summary>📘 3. Modelo Lógico - Diagrama de Engenharia de Informação</summary>
 
 # Modelo Lógico - Diagrama de Engenharia de Informação
 
@@ -245,6 +251,8 @@ O Modelo Lógico para o programa de sócios torcedores "Camisa 7" foi desenvolvi
 
 <details>
 
+<summary>📘 4. Modelo Físico</summary>
+
 # Modelo Físico
 
 ## Introdução
@@ -327,9 +335,11 @@ O Modelo Físico para o programa de sócios torcedores "Camisa 7" foi projetado 
 
 
 O Modelo Físico transforma o projeto conceitual e lógico em uma estrutura prática e implementável. Ele define como cada dado será armazenado e acessado, garantindo a integridade, consistência e organização do banco de dados para o programa "Camisa 7". Com essa estrutura física implementada no SGBD, o sistema será capaz de gerenciar as inscrições, pagamentos, benefícios, ingressos e eventos dos sócios de maneira eficiente e escalável.
-<details>
+</details>
 
 <details>
+
+<summary>📘 5. Estapas de Normalização</summary>
 
 # Etapas de Normalização e Estrutura do Banco de Dados
 
@@ -412,6 +422,8 @@ A estrutura do banco de dados para o programa "Camisa 7" foi cuidadosamente norm
 </details>
 
 <details>
+
+<summary>📘 6. SQL DDL</summary>
 
 # Programa de Sócios "Camisa 7" - Banco de Dados
 
@@ -533,6 +545,8 @@ CREATE TABLE Plano_Beneficio (
 
 <details>
 
+<summary>📘 7. SQL DML</summary>
+
 # Inserção de Dados - Programa de Sócios "Camisa 7"
 
 ## Introdução à DML e Inserção de Dados
@@ -619,6 +633,8 @@ VALUES
 </details>
 
 <details>
+
+<summary>📘 8. Consultas SQL, Relatórios e Views</summary>
 
 ## Consultas SQL, Relatórios e Views
 
