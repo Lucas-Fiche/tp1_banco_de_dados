@@ -145,6 +145,10 @@ Para capturar as conexões entre as entidades, foram definidos vários relaciona
 
 Após definir as entidades e relacionamentos, ajustes foram feitos para melhorar a clareza e a precisão do modelo. Atributos adicionais foram adicionados a algumas relações para capturar informações específicas (por exemplo, a quantidade de ingressos disponíveis para um setor específico). Também foi garantido que as setas de relacionamento estivessem corretamente apontadas das chaves estrangeiras para as chaves primárias correspondentes, reforçando a integridade dos dados no modelo.
 
+### Modelo Conceitual
+
+![Modelo Conceitual](modelo_conceitual.drawio.svg)
+
 ## Conclusão do Modelo Conceitual
 
 O modelo conceitual construído para o programa "Camisa 7" do Botafogo proporciona uma base clara e bem estruturada para o sistema de banco de dados. Ele descreve como cada entidade se relaciona com as demais e garante que todas as informações relevantes estão organizadas de forma lógica e compreensível. Esse modelo é fundamental para a próxima etapa do desenvolvimento do banco de dados, onde será criado o Modelo Lógico, que traduzirá essa visão conceitual em um formato mais próximo da implementação no banco de dados.
@@ -429,6 +433,7 @@ Table Plano_Beneficio {
 }
 
 ```
+### Modelo Físico
 
 ![Modelo Físico](Modelo%20Físico%20-%20Sócio%20Torcedor.svg)
 
