@@ -771,6 +771,12 @@ WHERE
     s.Status_socio = TRUE;
 ```
 
+| ID_Socio | Nome         | Email                   | Telefone    | Data_adesao | Pontos_socio | Nome_Plano    |
+|----------|--------------|-------------------------|-------------|-------------|--------------|---------------|
+| 1        | Carlos Silva | carlos.silva@example.com | 21987654321 | 2023-01-15  | 100          | Plano Bronze  |
+| 2        | Ana Pereira  | ana.pereira@example.com  | 21912345678 | 2022-05-20  | 200          | Plano Prata   |
+
+
 #### 2. Relatório de Pagamentos por Sócio
 
 ```
@@ -788,6 +794,13 @@ JOIN
 ORDER BY 
     s.Nome, p.Data_pagamento;
 ```
+
+| Nome_Socio   | ID_Pagamento | Data_pagamento | Valor_pago | Metodo_pagamento   | Status_pagamento |
+|--------------|--------------|----------------|------------|--------------------|------------------|
+| Ana Pereira  | 2            | 2023-03-20     | 49.99      | Boleto Bancário    | 1                |
+| Carlos Silva | 1            | 2023-02-15     | 29.99      | Cartão de Crédito  | 1                |
+| Pedro Souza  | 3            | 2023-04-10     | 79.99      | Pix                | 0                |
+
 
 #### 3. Benefícios Disponíveis para Cada Plano
 
@@ -808,6 +821,13 @@ ORDER BY
     pl.Nome_Plano, b.Tipo_Beneficio;
 ```
 
+| Nome_Socio   | Tipo_Beneficio          | Pontos_necessarios | Pontos_socio |
+|--------------|--------------------------|---------------------|--------------|
+| Ana Pereira  | Acesso VIP               | 200                | 200          |
+| Ana Pereira  | Desconto em Ingresso     | 100                | 200          |
+| Carlos Silva | Desconto em Ingresso     | 100                | 100          |
+
+
 #### 4. Ingressos por Sócio com Detalhes de Desconto
 
 ```
@@ -823,6 +843,13 @@ JOIN
 ORDER BY 
     s.Nome, i.Data_jogo;
 ```
+
+| Nome_Socio   | Jogo   | Data_jogo  | Desconto |
+|--------------|--------|------------|----------|
+| Ana Pereira  | Jogo B | 2023-05-15 | 0.20     |
+| Carlos Silva | Jogo A | 2023-05-01 | 0.10     |
+| Pedro Souza  | Jogo C | 2023-06-01 | 0.15     |
+
 
 #### 5. Eventos Exclusivos com Participação por Sócio
 
@@ -843,6 +870,13 @@ ORDER BY
 
 ```
 
+| Nome_evento       | Data_evento | Nome_Socio   | Data_inscricao |
+|-------------------|-------------|--------------|----------------|
+| Evento Especial A | 2023-07-10  | Carlos Silva | 2023-06-01     |
+| Evento Especial B | 2023-08-20  | Ana Pereira  | 2023-07-15     |
+| Evento Especial C | 2023-09-15  | Pedro Souza  | 2023-08-10     |
+
+
 #### 6. Total de Pontos Acumulados por Sócio
 
 ```
@@ -855,6 +889,13 @@ ORDER BY
     Pontos_socio DESC;
 
 ```
+
+| Nome         | Pontos_socio |
+|--------------|--------------|
+| Ana Pereira  | 200          |
+| Carlos Silva | 100          |
+| Pedro Souza  | 50           |
+
 
 #### 7. Valor Total Pago por Cada Sócio
 
@@ -872,6 +913,13 @@ ORDER BY
     Total_Pago DESC;
 
 ```
+
+| Nome_Socio   | Total_Pago |
+|--------------|------------|
+| Pedro Souza  | 79.99      |
+| Ana Pereira  | 49.99      |
+| Carlos Silva | 29.99      |
+
 
 #### 8. Sócios com Benefícios Disponíveis para Resgate
 
@@ -893,6 +941,14 @@ ORDER BY
     s.Nome;
 
 ```
+
+| Nome_Socio   | Tipo_Beneficio          | Pontos_necessarios | Pontos_socio |
+|--------------|--------------------------|---------------------|--------------|
+| Ana Pereira  | Desconto em Ingresso     | 100                | 200          |
+| Ana Pereira  | Acesso VIP               | 200                | 200          |
+| Carlos Silva | Desconto em Ingresso     | 100                | 100          |
+
+
 ### Views
 
 Uma view é um objeto que é formado por declarações SELECTs, que retornam uma visualização de dados específica de uma ou mais tabelas de um banco de dados.
