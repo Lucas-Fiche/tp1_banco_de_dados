@@ -150,10 +150,6 @@ Após definir as entidades e relacionamentos, ajustes foram feitos para melhorar
 O modelo conceitual construído para o programa "Camisa 7" do Botafogo proporciona uma base clara e bem estruturada para o sistema de banco de dados. Ele descreve como cada entidade se relaciona com as demais e garante que todas as informações relevantes estão organizadas de forma lógica e compreensível. Esse modelo é fundamental para a próxima etapa do desenvolvimento do banco de dados, onde será criado o Modelo Lógico, que traduzirá essa visão conceitual em um formato mais próximo da implementação no banco de dados.
 </details>
 
-### Veja o Modelo Conceitual aqui:
-
-https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=modelo_conceitual.drawio#R%3Cmxfile%3E%3Cdiagram%20name%3D%22P%C3%A1gina-1%22%20id%3D%22wmdU3N0_5JdRUZmJLfvx%22%3E7V1be9q4Fv01eaQfkm%2F4MYW0h5lcaEhnTvrCp4ACnjEWtU0u%2FfXHBgtsSUnc0%2BC9Kby0sWywWWtL2nefWN350%2BeYLWYXYsLDE9qePJ1YvRNKqUXs7L985FmOtMl6ZBoHk%2FVYaWAY%2FODFYLsYXQYTnlQuTIUI02BRHRyLKOLjtDLG4lg8Vi%2B7F2H1rgs25drAcMxCffTvYJLO1qMd6m3H%2F8OD6Uzembj%2B%2BsycyYuLX5LM2EQ8loassxOrGwuRrv%2BaP3V5mKMncVl%2F7tMLZzcPFvMorfOBL%2F6gdf2DiOTx%2B1TcffJ6%2Fh1tEVo8XPosfzGfZAAUhyJOZ2IqIhaebUc%2FxmIZTXj%2Bte3saHvNuRCLbJBkg%2F%2FwNH0u2GTLVGRDs3QeFmezJ46f%2F1s%2BuM2%2F7IMjD3tPxZevj56LI%2F0nFygkYhmP%2BWu%2FsxAdFk95%2Bsp1hbjmGJRuUAD6mYs5z54nuyDmIUuDh6qQsELWppvrtnRkfxSM%2FAw71pGd8nUeLnbsIzvl6xxU7Pg%2BKDttbOz4HVT0kPZxbavy08bFj9U%2B8lO%2BDtn0sciRnsr0QUbPUa%2BuXkeQ8ePCagdbSm4rjIDxY%2BHS3ojtHdW3KiAuLoLco%2F5WuY4io8c50lO1N5DxA7sBoeMH2%2BrWwaQfEHB6iIvM97b%2B3gcWLos7DU%2B61slHaxwIjbkqL4%2BzIOXDBVvh8hizRZWDF7F84HHKn1797ZuwR%2BEZlEEPufg8biMIRIYFZqXogdveEVxUg%2Bsy%2B2ZdxMMwWCS8EZAUjFqOo2NEDBg5u8LI1jA6a81ZEGJCiRoEqVGQHA2k7uATJoR8aDFyNYROqBtmd%2F24zP6Y5n%2F0e6OhWC1U6xPZfTbnMGHZIh1oND19UmZLeczzxf7U05d6QLSIBz05OxpYNzzk9yJCtdJbpt2wUZx8DaceS9mITXjCUImU5UHPP3mzsqKVsnSZjBJhUrVAVyvw3ZHoaulARKlAiJZtQ4NFYR1IjZlYUirf9iDh8pFT2PQGhPzgcvFRYBdFUx6k%2BvzgclEAB9AR8oPMx0cPJMRUmyACtwP1v1jWbfwwG3%2BeXdnj73%2Bzq9uH1oH4YGvzYyFTEHTbYBCyCN7%2F2pFPhsf%2FqhsGuQN2tDDi1aRZ4Nl%2BBSsX2uKUWtYbDrRC0pA50Do%2BNjR1d%2BRfLBTxaM6jhMH6tn1fmabwaOnuxjVaLFoiA4tQaLAsfU3r8WQcB2vf7Opf6xcWt3sRpXKvNxS7%2FB%2B7AjhiqJLOdqfQWIVn522FBle5jXUgCmd9fnBZ1DZsznNjBlt9fnBlPdv0yE8VEFxJZzawRxcfPxYqfuRzlzSqDBN%2Bv1Klehgym4jVxmZaW3rejsleVIFEZjgSWwGWtMG1Vd0YugkWYnSXIxlAhzMJ9dABZsgreE%2BD6D1Qc9T5Cx4zt3Uv4pcli9JgwiZ8FAbzDBNcmBH4VEV9oyjyDCI%2B5kmyEjUSByLBhRwFzydzDqRqxS6AflsFwlXX6oCoqL%2BO8%2FvBV3x0IILsWcpTqTKTPM%2BvfsWa6OJTCgmbx%2FgFXg6knKj2vHFwmXbEOi5syoW4fFfEOpBuMfUJAksHMSYbwPoW8dHjU1Tzx9YrTwZsyuYZAPBuETW5dhNUB%2FOK2PXKUEoQInOIKIg60uSBs7l0d8iqamDxohQCwuUScLj0YpR1KD3DCxdUHQ8aKt1vdMFTMRE4ZctzoAFzdJdRUZSCErBNs1C4gidY662xbjdOseu9rdzgSjwg0JFTdAQ5uNxSxEZVrISBIGTm9aHEtmsT5CJzUNnAexA6ghxcyTvEOZBymNoEbeJ8SBhydJu%2BH01jniTwHhCnrdjrprhyox4QR7fXTR6QLYLIHCCugqjrQEfqHd2k%2F0MAG%2FNOu1pw4REXGqUXukuAQ%2BW63genApYN3onD1S35PGVGQFvwBqzAu7t4sPtzYxEK%2BQKVt98Ggaye2EFVPrA7G7E%2BQchMELk0HwmSBFFUBLn61jnkqYhHZ0nKJgjSn31P8eyCx%2Fk8fQM1tpvLYUSn4vpy%2F5S9%2B1zwPZZqcK7qtJM1foBYkbaDDizdHh3EKDrzdYgyT2VaIVxrPlQRmN2VFnqdmltPB5du0DmQ0tza%2FMj8UiTZWQeSflp%2F%2BoAFMI30HEgz%2B%2Fr04Cos9HTP3dlDniYxOnsah8skeIDXrW2laU%2BLmspsmlWudXvEpFyvoUSnXVuuAqgF7sLq6NbKSr2WCAKiZfv40DI0WMk9yQjQcqmDDi29Ju5cjFkY%2FGB46i%2BppS5y4E1pOnr9dJdlGKzqL5GB5UMLma8vYPvTnEx9lwR4B2hZYvA7vCuh40NnXPv1GiHgRNNW5jp8tJvI2uXfPR%2FGr2vUSN0biVHj60bN6XB41e2f9q6y4VONvXgm5nfLpBF5dmyqBJCJafOSu39ZojeCtwOR1ouo9idaQNrSSYemcoO09zzJiBBbWXeJIaLVMKa61V1qCDIJkoWIssUFth2nJozGhDfXbhI4oltA%2B9gJqa04guBNS0LqqVY41X5CCT5AYfz5T0FairZkR7elM1vFKj94h1drSqmp8XJ0ZOVIRFetLjXCMvFLq%2FiyMJhG2d%2FjDCseZwO5kAZjFp4WJ%2BbBZBK%2BJPVVet9B8FUHKDV0CHMNYm%2FtTOwNHfP1tgPocfXw4QpcndWUqbZ5QcfbnWHBAlDud48%2FRF%2B7V39efHNu0r%2Fc2bc7%2Bf7ZIz8IlnwjQQfSPehnCMIVwt08ebn657J7%2FrWvMdeknyODSd0MdOWyY9gMOrvbDHRlfQ%2BVF99Dt8nqzqM9xJVQJY%2FS1MG4WWBxvXZgd2npxKrdGgxX4eXmwUuif312et7%2FButkpk41BmUbUoKbXXsNLZD30MBRA8%2FU8BrmZpcIQ5PkPVx7VVy9tu7AbxjXQ1l67dpdCZAV1Rka2XWvLgbXsCuv2q3f9KL2ZldeQxOxPVwh1Cw82xBVaXaFcOjvsKNZSr6eZdAUmsVV3u23X3mdukqvrH5E4hE6kH5K9fnZBPuREHQg%2FZR%2BhiAws9FIEHBJGUaCsLW80u36Xn94c93%2F%2BLW%2FSiI7uwBVM9U61k1PoNK2TWXHm2b0TFd3Q%2B%2BhnukRtb%2BLC%2B4GdHVNcw%2BR9anSLdjSRbZhXFF1%2FdhdaS9xvZrrsAfWXNW4TxJgU6CxjdJEkBERXIom0Q3eA%2BcH2fyhR36qiCBTM109S3xwen3T7%2FYHsG5M1S3UMrjbjJmhu9MvDQ2N9lALokpaPQGPIHm63i4zle9kmvJlKXf57sXc5d2Cfx%2BEYVeEIvuaXiSi%2FENJGot%2FuTL4DiRpHQeI3xxLy%2FNLkqSDwXXfdRf3ohcuH59aL3OEP81cqYdstD2VeVuE3RU%2F%2BL6S1ubab2yNq6MBj4MMgHwe7eBVX6%2BJHRJ1Rt8st1WrgPKtdrhuNVlF8ZoWWgUKQXMIDakGWxy8pg6qfTT6Uf5y7jGDRsuvoOXuDq3sMBYiLZ37nP2i2YWY8PyK%2FwE%3D%3C%2Fdiagram%3E%3C%2Fmxfile%3E
-
 [Veja o Modelo Conceitual aqui!](https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=modelo_conceitual.drawio#R%3Cmxfile%3E%3Cdiagram%20name%3D%22P%C3%A1gina-1%22%20id%3D%22wmdU3N0_5JdRUZmJLfvx%22%3E7V1be9q4Fv01eaQfkm%2F4MYW0h5lcaEhnTvrCp4ACnjEWtU0u%2FfXHBgtsSUnc0%2BC9Kby0sWywWWtL2nefWN350%2BeYLWYXYsLDE9qePJ1YvRNKqUXs7L985FmOtMl6ZBoHk%2FVYaWAY%2FODFYLsYXQYTnlQuTIUI02BRHRyLKOLjtDLG4lg8Vi%2B7F2H1rgs25drAcMxCffTvYJLO1qMd6m3H%2F8OD6Uzembj%2B%2BsycyYuLX5LM2EQ8loassxOrGwuRrv%2BaP3V5mKMncVl%2F7tMLZzcPFvMorfOBL%2F6gdf2DiOTx%2B1TcffJ6%2Fh1tEVo8XPosfzGfZAAUhyJOZ2IqIhaebUc%2FxmIZTXj%2Bte3saHvNuRCLbJBkg%2F%2FwNH0u2GTLVGRDs3QeFmezJ46f%2F1s%2BuM2%2F7IMjD3tPxZevj56LI%2F0nFygkYhmP%2BWu%2FsxAdFk95%2Bsp1hbjmGJRuUAD6mYs5z54nuyDmIUuDh6qQsELWppvrtnRkfxSM%2FAw71pGd8nUeLnbsIzvl6xxU7Pg%2BKDttbOz4HVT0kPZxbavy08bFj9U%2B8lO%2BDtn0sciRnsr0QUbPUa%2BuXkeQ8ePCagdbSm4rjIDxY%2BHS3ojtHdW3KiAuLoLco%2F5WuY4io8c50lO1N5DxA7sBoeMH2%2BrWwaQfEHB6iIvM97b%2B3gcWLos7DU%2B61slHaxwIjbkqL4%2BzIOXDBVvh8hizRZWDF7F84HHKn1797ZuwR%2BEZlEEPufg8biMIRIYFZqXogdveEVxUg%2Bsy%2B2ZdxMMwWCS8EZAUjFqOo2NEDBg5u8LI1jA6a81ZEGJCiRoEqVGQHA2k7uATJoR8aDFyNYROqBtmd%2F24zP6Y5n%2F0e6OhWC1U6xPZfTbnMGHZIh1oND19UmZLeczzxf7U05d6QLSIBz05OxpYNzzk9yJCtdJbpt2wUZx8DaceS9mITXjCUImU5UHPP3mzsqKVsnSZjBJhUrVAVyvw3ZHoaulARKlAiJZtQ4NFYR1IjZlYUirf9iDh8pFT2PQGhPzgcvFRYBdFUx6k%2BvzgclEAB9AR8oPMx0cPJMRUmyACtwP1v1jWbfwwG3%2BeXdnj73%2Bzq9uH1oH4YGvzYyFTEHTbYBCyCN7%2F2pFPhsf%2FqhsGuQN2tDDi1aRZ4Nl%2BBSsX2uKUWtYbDrRC0pA50Do%2BNjR1d%2BRfLBTxaM6jhMH6tn1fmabwaOnuxjVaLFoiA4tQaLAsfU3r8WQcB2vf7Opf6xcWt3sRpXKvNxS7%2FB%2B7AjhiqJLOdqfQWIVn522FBle5jXUgCmd9fnBZ1DZsznNjBlt9fnBlPdv0yE8VEFxJZzawRxcfPxYqfuRzlzSqDBN%2Bv1Klehgym4jVxmZaW3rejsleVIFEZjgSWwGWtMG1Vd0YugkWYnSXIxlAhzMJ9dABZsgreE%2BD6D1Qc9T5Cx4zt3Uv4pcli9JgwiZ8FAbzDBNcmBH4VEV9oyjyDCI%2B5kmyEjUSByLBhRwFzydzDqRqxS6AflsFwlXX6oCoqL%2BO8%2FvBV3x0IILsWcpTqTKTPM%2BvfsWa6OJTCgmbx%2FgFXg6knKj2vHFwmXbEOi5syoW4fFfEOpBuMfUJAksHMSYbwPoW8dHjU1Tzx9YrTwZsyuYZAPBuETW5dhNUB%2FOK2PXKUEoQInOIKIg60uSBs7l0d8iqamDxohQCwuUScLj0YpR1KD3DCxdUHQ8aKt1vdMFTMRE4ZctzoAFzdJdRUZSCErBNs1C4gidY662xbjdOseu9rdzgSjwg0JFTdAQ5uNxSxEZVrISBIGTm9aHEtmsT5CJzUNnAexA6ghxcyTvEOZBymNoEbeJ8SBhydJu%2BH01jniTwHhCnrdjrprhyox4QR7fXTR6QLYLIHCCugqjrQEfqHd2k%2F0MAG%2FNOu1pw4REXGqUXukuAQ%2BW63genApYN3onD1S35PGVGQFvwBqzAu7t4sPtzYxEK%2BQKVt98Ggaye2EFVPrA7G7E%2BQchMELk0HwmSBFFUBLn61jnkqYhHZ0nKJgjSn31P8eyCx%2Fk8fQM1tpvLYUSn4vpy%2F5S9%2B1zwPZZqcK7qtJM1foBYkbaDDizdHh3EKDrzdYgyT2VaIVxrPlQRmN2VFnqdmltPB5du0DmQ0tza%2FMj8UiTZWQeSflp%2F%2BoAFMI30HEgz%2B%2Fr04Cos9HTP3dlDniYxOnsah8skeIDXrW2laU%2BLmspsmlWudXvEpFyvoUSnXVuuAqgF7sLq6NbKSr2WCAKiZfv40DI0WMk9yQjQcqmDDi29Ju5cjFkY%2FGB46i%2BppS5y4E1pOnr9dJdlGKzqL5GB5UMLma8vYPvTnEx9lwR4B2hZYvA7vCuh40NnXPv1GiHgRNNW5jp8tJvI2uXfPR%2FGr2vUSN0biVHj60bN6XB41e2f9q6y4VONvXgm5nfLpBF5dmyqBJCJafOSu39ZojeCtwOR1ouo9idaQNrSSYemcoO09zzJiBBbWXeJIaLVMKa61V1qCDIJkoWIssUFth2nJozGhDfXbhI4oltA%2B9gJqa04guBNS0LqqVY41X5CCT5AYfz5T0FairZkR7elM1vFKj94h1drSqmp8XJ0ZOVIRFetLjXCMvFLq%2FiyMJhG2d%2FjDCseZwO5kAZjFp4WJ%2BbBZBK%2BJPVVet9B8FUHKDV0CHMNYm%2FtTOwNHfP1tgPocfXw4QpcndWUqbZ5QcfbnWHBAlDud48%2FRF%2B7V39efHNu0r%2Fc2bc7%2Bf7ZIz8IlnwjQQfSPehnCMIVwt08ebn657J7%2FrWvMdeknyODSd0MdOWyY9gMOrvbDHRlfQ%2BVF99Dt8nqzqM9xJVQJY%2FS1MG4WWBxvXZgd2npxKrdGgxX4eXmwUuif312et7%2FButkpk41BmUbUoKbXXsNLZD30MBRA8%2FU8BrmZpcIQ5PkPVx7VVy9tu7AbxjXQ1l67dpdCZAV1Rka2XWvLgbXsCuv2q3f9KL2ZldeQxOxPVwh1Cw82xBVaXaFcOjvsKNZSr6eZdAUmsVV3u23X3mdukqvrH5E4hE6kH5K9fnZBPuREHQg%2FZR%2BhiAws9FIEHBJGUaCsLW80u36Xn94c93%2F%2BLW%2FSiI7uwBVM9U61k1PoNK2TWXHm2b0TFd3Q%2B%2BhnukRtb%2BLC%2B4GdHVNcw%2BR9anSLdjSRbZhXFF1%2FdhdaS9xvZrrsAfWXNW4TxJgU6CxjdJEkBERXIom0Q3eA%2BcH2fyhR36qiCBTM109S3xwen3T7%2FYHsG5M1S3UMrjbjJmhu9MvDQ2N9lALokpaPQGPIHm63i4zle9kmvJlKXf57sXc5d2Cfx%2BEYVeEIvuaXiSi%2FENJGot%2FuTL4DiRpHQeI3xxLy%2FNLkqSDwXXfdRf3ohcuH59aL3OEP81cqYdstD2VeVuE3RU%2F%2BL6S1ubab2yNq6MBj4MMgHwe7eBVX6%2BJHRJ1Rt8st1WrgPKtdrhuNVlF8ZoWWgUKQXMIDakGWxy8pg6qfTT6Uf5y7jGDRsuvoOXuDq3sMBYiLZ37nP2i2YWY8PyK%2FwE%3D%3C%2Fdiagram%3E%3C%2Fmxfile%3E)
 
 
@@ -256,6 +252,9 @@ O Modelo Lógico para o programa de sócios torcedores "Camisa 7" foi desenvolvi
 - Isso permite ao sistema registrar e gerenciar a participação dos sócios em eventos especiais oferecidos pelo programa.
 </details>
 
+[Veja o Modelo Lógico aqui!](https://github.com)
+
+
 ## Tópico 4 -  Modelo Físico
 
 <details>
@@ -337,6 +336,101 @@ O Modelo Físico para o programa de sócios torcedores "Camisa 7" foi projetado 
 
 - `Evento_Exclusivo` armazena eventos que são acessíveis apenas aos sócios.
 - A tabela `Participacao_Evento` permite registrar quais sócios participam de quais eventos, facilitando a organização e o controle de participação em eventos especiais.
+
+### Código para gerar o Modelo Físico
+
+```
+// Tabela Sócio
+Table Sócio {
+  ID_Socio int [pk] // Chave Primária
+  Nome varchar
+  Email varchar
+  CPF varchar
+  Endereço varchar
+  Telefone varchar
+  Data_adesao date
+  Status_socio boolean
+  Pontos_socio int
+  ID_Plano int [ref: > Plano.ID_Plano] // Chave Estrangeira para Plano
+}
+
+// Tabela Plano
+Table Plano {
+  ID_Plano int [pk] // Chave Primária
+  Nome_Plano varchar
+  Valor_mensal float
+  Valor_anual float
+  Descrição text
+}
+
+// Tabela Benefício
+Table Benefício {
+  ID_Beneficio int [pk] // Chave Primária
+  Tipo_Beneficio varchar
+  Quantidade_limite int
+  Pontos_necessarios int
+  Descrição text
+}
+
+// Tabela Pagamento
+Table Pagamento {
+  ID_Pagamento int [pk] // Chave Primária
+  Data_pagamento date
+  Valor_pago float
+  Metodo_pagamento varchar
+  Status_pagamento boolean
+  ID_Socio int [ref: > Sócio.ID_Socio] // Chave Estrangeira para Sócio
+  ID_Plano int [ref: > Plano.ID_Plano] // Chave Estrangeira para Plano
+}
+
+// Tabela Ingresso
+Table Ingresso {
+  ID_Ingresso int [pk] // Chave Primária
+  Jogo varchar
+  Data_jogo date
+  Desconto float
+  ID_Socio int [ref: > Sócio.ID_Socio] // Chave Estrangeira para Sócio
+}
+
+// Tabela Setor_Estadio
+Table Setor_Estadio {
+  ID_Setor int [pk] // Chave Primária
+  Nome_Setor varchar
+  Preço float
+}
+
+// Tabela Disponibilidade_Ingresso (Tabela Intermediária para Ingresso e Setor_Estadio)
+Table Disponibilidade_Ingresso {
+  ID_Ingresso int [ref: > Ingresso.ID_Ingresso] // Chave Estrangeira para Ingresso
+  ID_Setor int [ref: > Setor_Estadio.ID_Setor] // Chave Estrangeira para Setor_Estadio
+  Quantidade_disponivel int
+}
+
+// Tabela Evento_Exclusivo
+Table Evento_Exclusivo {
+  ID_Evento int [pk] // Chave Primária
+  Nome_evento varchar
+  Data_evento date
+  Localização varchar
+  Capacidade int
+}
+
+// Tabela Participacao_Evento (Tabela Intermediária para Sócio e Evento_Exclusivo)
+Table Participacao_Evento {
+  ID_Socio int [ref: > Sócio.ID_Socio] // Chave Estrangeira para Sócio
+  ID_Evento int [ref: > Evento_Exclusivo.ID_Evento] // Chave Estrangeira para Evento_Exclusivo
+  Data_inscricao date
+}
+
+// Tabela Plano_Beneficio (Tabela Intermediária para Plano e Benefício)
+Table Plano_Beneficio {
+  ID_Plano int [ref: > Plano.ID_Plano] // Chave Estrangeira para Plano
+  ID_Beneficio int [ref: > Benefício.ID_Beneficio] // Chave Estrangeira para Benefício
+}
+
+```
+
+![Modelo Físico](Modelo%20Físico%20-%20Sócio%20Torcedor.svg)
 
 ## Conclusão
 
