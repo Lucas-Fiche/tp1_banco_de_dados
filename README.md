@@ -770,6 +770,7 @@ JOIN
 WHERE 
     s.Status_socio = TRUE;
 ```
+##### Resultado Obtido 
 
 | ID_Socio | Nome         | Email                   | Telefone    | Data_adesao | Pontos_socio | Nome_Plano    |
 |----------|--------------|-------------------------|-------------|-------------|--------------|---------------|
@@ -794,6 +795,8 @@ JOIN
 ORDER BY 
     s.Nome, p.Data_pagamento;
 ```
+
+##### Resultado Obtido
 
 | Nome_Socio   | ID_Pagamento | Data_pagamento | Valor_pago | Metodo_pagamento   | Status_pagamento |
 |--------------|--------------|----------------|------------|--------------------|------------------|
@@ -821,6 +824,8 @@ ORDER BY
     pl.Nome_Plano, b.Tipo_Beneficio;
 ```
 
+##### Resultado Obtido
+
 | Nome_Socio   | Tipo_Beneficio          | Pontos_necessarios | Pontos_socio |
 |--------------|--------------------------|---------------------|--------------|
 | Ana Pereira  | Acesso VIP               | 200                | 200          |
@@ -843,6 +848,8 @@ JOIN
 ORDER BY 
     s.Nome, i.Data_jogo;
 ```
+
+##### Resultado Obtido
 
 | Nome_Socio   | Jogo   | Data_jogo  | Desconto |
 |--------------|--------|------------|----------|
@@ -870,6 +877,8 @@ ORDER BY
 
 ```
 
+##### Resultado Obtido
+
 | Nome_evento       | Data_evento | Nome_Socio   | Data_inscricao |
 |-------------------|-------------|--------------|----------------|
 | Evento Especial A | 2023-07-10  | Carlos Silva | 2023-06-01     |
@@ -889,6 +898,8 @@ ORDER BY
     Pontos_socio DESC;
 
 ```
+
+##### Resultado Obtido
 
 | Nome         | Pontos_socio |
 |--------------|--------------|
@@ -913,6 +924,8 @@ ORDER BY
     Total_Pago DESC;
 
 ```
+
+##### Resultado Obtido
 
 | Nome_Socio   | Total_Pago |
 |--------------|------------|
@@ -942,11 +955,133 @@ ORDER BY
 
 ```
 
+##### Resultado Obtido
+
 | Nome_Socio   | Tipo_Beneficio          | Pontos_necessarios | Pontos_socio |
 |--------------|--------------------------|---------------------|--------------|
 | Ana Pereira  | Desconto em Ingresso     | 100                | 200          |
 | Ana Pereira  | Acesso VIP               | 200                | 200          |
 | Carlos Silva | Desconto em Ingresso     | 100                | 100          |
+
+
+#### 9. Pagamentos realizados com informações do plano associado
+
+```
+SELECT 
+    Pagamento.ID_Pagamento,
+    Pagamento.Data_Pagamento,
+    Pagamento.Valor_Pago,
+    Plano.Nome_Plano,
+    Plano.Valor_mensal,
+    Plano.Valor_anual
+FROM 
+    Pagamento
+JOIN 
+    Plano ON Pagamento.ID_Plano = Plano.ID_Plano;
+
+```
+##### Resultado Obtido
+
+| ID_Pagamento | Data_Pagamento | Valor_Pago | Nome_Plano   | Valor_mensal | Valor_anual |
+|--------------|----------------|------------|--------------|--------------|-------------|
+| 1            | 2023-02-15     | 29.99      | Plano Bronze | 29.99        | 299.99      |
+| 2            | 2023-03-20     | 49.99      | Plano Prata  | 49.99        | 499.99      |
+| 3            | 2023-04-10     | 79.99      | Plano Ouro   | 79.99        | 799.99      |
+
+
+#### 10. Total de pagamentos recebidos por cada plano
+
+```
+SELECT 
+    Plano.Nome_Plano,
+    SUM(Pagamento.Valor_Pago) AS Total_Pago
+FROM 
+    Pagamento
+JOIN 
+    Plano ON Pagamento.ID_Plano = Plano.ID_Plano
+GROUP BY 
+    Plano.Nome_Plano;
+
+```
+
+| Nome_Plano   | Total_Pago |
+|--------------|------------|
+| Plano Bronze | 29.99      |
+| Plano Prata  | 49.99      |
+| Plano Ouro   | 79.99      |
+
+
+#### 11. Número de pagamentos realizados por plano
+
+```
+SELECT 
+    Plano.Nome_Plano,
+    COUNT(Pagamento.ID_Pagamento) AS Numero_Pagamentos
+FROM 
+    Pagamento
+JOIN 
+    Plano ON Pagamento.ID_Plano = Plano.ID_Plano
+GROUP BY 
+    Plano.Nome_Plano;
+
+```
+
+| Nome_Plano   | Numero_Pagamentos |
+|--------------|-------------------|
+| Plano Bronze | 1                 |
+| Plano Prata  | 1                 |
+| Plano Ouro   | 1                 |
+
+
+#### 12.  Sócios que realizaram pagamentos e o plano ao qual o pagamento se refere
+
+```
+SELECT 
+    Socio.Nome,
+    Socio.Email,
+    Plano.Nome_Plano,
+    Pagamento.Data_Pagamento,
+    Pagamento.Valor_Pago
+FROM 
+    Socio
+JOIN 
+    Pagamento ON Pagamento.ID_Socio = Socio.ID_Socio
+JOIN 
+    Plano ON Pagamento.ID_Plano = Plano.ID_Plano;
+
+```
+
+| Nome         | Email                     | Nome_Plano   | Data_Pagamento | Valor_Pago |
+|--------------|---------------------------|--------------|----------------|------------|
+| Carlos Silva | carlos.silva@example.com  | Plano Bronze | 2023-02-15     | 29.99      |
+| Ana Pereira  | ana.pereira@example.com   | Plano Prata  | 2023-03-20     | 49.99      |
+| Pedro Souza  | pedro.souza@example.com   | Plano Ouro   | 2023-04-10     | 79.99      |
+
+
+#### 13.  Valor total pago por cada sócio em um determinado plano
+
+```
+SELECT 
+    `Sócio`.Nome,
+    `Sócio`.Email,
+    Plano.Nome_Plano,
+    SUM(Pagamento.Valor_Pago) AS Total_Pago
+FROM 
+    Pagamento
+JOIN 
+    `Sócio` ON Pagamento.ID_Socio = `Sócio`.ID_Socio
+JOIN 
+    Plano ON Pagamento.ID_Plano = Plano.ID_Plano
+GROUP BY 
+    `Sócio`.Nome, `Sócio`.Email, Plano.Nome_Plano;
+
+```
+
+| Nome         | Email                     | Nome_Plano   | Total_Pago |
+|--------------|---------------------------|--------------|------------|
+| Carlos Silva | carlos.silva@example.com  | Plano Bronze | 29.99      |
+| Ana Pereira  | ana.pereira@example.com   | Plano Prata  | 49.99      |
+| Pedro Souza  | pedro.souza@example.com   | Plano Ouro   | 79.99      |
 
 
 ### Views
