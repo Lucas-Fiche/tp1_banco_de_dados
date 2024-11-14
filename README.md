@@ -1,85 +1,81 @@
 # Programa de Sócio Torcedor
 
+<details>
+  ## 1. Introdução ao Programa de Sócio Torcedor
 
-## 1. Introdução ao Programa de Sócio Torcedor
+  O programa de Sócio Torcedor é uma iniciativa de clubes de futebol voltada para o engajamento e fidelização dos seus torcedores, oferecendo a eles a oportunidade de apoiar diretamente o clube e, em troca, obter benefícios exclusivos. Comum em diversos times ao redor do mundo, esse programa se tornou uma fonte importante de receita para as equipes, complementando os ganhos com venda de ingressos, patrocínios e direitos de transmissão.
 
+  A principal ideia por trás do programa é criar um vínculo mais próximo entre o clube e seus torcedores, oferecendo vantagens como prioridade na compra de ingressos, descontos em produtos oficiais, acesso a áreas exclusivas nos estádios, e a possibilidade de participar de eventos especiais, como encontros com jogadores e visitas às instalações do clube. Esse modelo de fidelização não apenas beneficia os torcedores, que têm acesso a experiências e serviços diferenciados, como também representa uma importante estratégia financeira e de marketing para o clube.
 
-O programa de Sócio Torcedor é uma iniciativa de clubes de futebol voltada para o engajamento e fidelização dos seus torcedores, oferecendo a eles a oportunidade de apoiar diretamente o clube e, em troca, obter benefícios exclusivos. Comum em diversos times ao redor do mundo, esse programa se tornou uma fonte importante de receita para as equipes, complementando os ganhos com venda de ingressos, patrocínios e direitos de transmissão.
+  Além dos benefícios diretos, o Sócio Torcedor incentiva uma base de fãs mais engajada e comprometida com o sucesso do clube, criando um ciclo de apoio mútuo. Muitos clubes oferecem diferentes planos, adaptando os benefícios e preços às preferências e possibilidades de cada torcedor, aumentando assim o alcance e a acessibilidade do programa.
 
-A principal ideia por trás do programa é criar um vínculo mais próximo entre o clube e seus torcedores, oferecendo vantagens como prioridade na compra de ingressos, descontos em produtos oficiais, acesso a áreas exclusivas nos estádios, e a possibilidade de participar de eventos especiais, como encontros com jogadores e visitas às instalações do clube. Esse modelo de fidelização não apenas beneficia os torcedores, que têm acesso a experiências e serviços diferenciados, como também representa uma importante estratégia financeira e de marketing para o clube.
-
-Além dos benefícios diretos, o Sócio Torcedor incentiva uma base de fãs mais engajada e comprometida com o sucesso do clube, criando um ciclo de apoio mútuo. Muitos clubes oferecem diferentes planos, adaptando os benefícios e preços às preferências e possibilidades de cada torcedor, aumentando assim o alcance e a acessibilidade do programa.
-
-### Exemplo para o Trabalho: Programa de Sócios "Camisa 7" do Botafogo de Futebol e Regatas
-
-
-Para o desenvolvimento do presente trabalho, utilizaremos como exemplo o programa de Sócio Torcedor do Botafogo de Futebol e Regatas, denominado "Camisa 7". Este programa é direcionado aos torcedores do Botafogo e oferece uma série de vantagens para aqueles que se tornam sócios, fortalecendo o vínculo entre o clube e sua torcida apaixonada.
-
-O programa "Camisa 7" concede aos sócios benefícios como prioridade e descontos na compra de ingressos, vantagens em produtos e serviços oficiais, acesso a eventos e experiências exclusivas, além de promoções junto a parceiros comerciais. Essa estrutura proporciona um caso rico para modelagem de banco de dados, uma vez que envolve uma diversidade de informações sobre o relacionamento entre o torcedor e o clube, planos de associação, regras de uso e diferentes tipos de benefícios e acessos.
-
-No decorrer do trabalho, focaremos na criação de uma estrutura de banco de dados que capture os principais aspectos do programa "Camisa 7", incluindo a modelagem de dados para sócios, planos, benefícios, e registros de transações, garantindo um sistema que pode sustentar tanto as operações internas do clube quanto o suporte aos torcedores cadastrados no programa.
-
-## 2. Resumo sobre o Negócio
+  ### Exemplo para o Trabalho: Programa de Sócios "Camisa 7" do Botafogo de Futebol e Regatas
 
 
-O programa de sócios torcedores "Camisa 7" do Botafogo de Futebol e Regatas visa fortalecer a relação entre o clube e seus torcedores, oferecendo benefícios exclusivos para aqueles que aderirem ao programa. Atuando no setor esportivo e de entretenimento, o programa permite que os torcedores apoiem diretamente o clube, contribuindo para a sustentabilidade financeira e participando de um modelo de engajamento que vai além dos jogos.
+  Para o desenvolvimento do presente trabalho, utilizaremos como exemplo o programa de Sócio Torcedor do Botafogo de Futebol e Regatas, denominado "Camisa 7". Este programa é direcionado aos torcedores do Botafogo e oferece uma série de vantagens para aqueles que se tornam sócios, fortalecendo o vínculo entre o clube e sua torcida apaixonada.
 
-### Ramo de Atuação
+  O programa "Camisa 7" concede aos sócios benefícios como prioridade e descontos na compra de ingressos, vantagens em produtos e serviços oficiais, acesso a eventos e experiências exclusivas, além de promoções junto a parceiros comerciais. Essa estrutura proporciona um caso rico para modelagem de banco de dados, uma vez que envolve uma diversidade de informações sobre o relacionamento entre o torcedor e o clube, planos de associação, regras de uso e diferentes tipos de benefícios e acessos.
 
+  No decorrer do trabalho, focaremos na criação de uma estrutura de banco de dados que capture os principais aspectos do programa "Camisa 7", incluindo a modelagem de dados para sócios, planos, benefícios, e registros de transações, garantindo um sistema que pode sustentar tanto as operações internas do clube quanto o suporte aos torcedores cadastrados no programa.
 
-O "Camisa 7" opera no mercado de fidelização esportiva, focado em oferecer vantagens exclusivas aos sócios torcedores, como prioridade na compra de ingressos, descontos em produtos oficiais, acesso a eventos exclusivos e outras experiências voltadas para os fãs.
-
-### Tipos de Serviços e Benefícios
-
-
-<ul>
-  <li>Prioridade e desconto na compra de ingressos para jogos do Botafogo.
-  <li>Descontos em produtos oficiais do clube e de parceiros.
-  <li>Acesso a áreas exclusivas do estádio.
-  <li>Possibilidade de participar de eventos e experiências únicas com o clube, como visitas ao estádio e encontros com jogadores.
-  <li>Benefícios relacionados a parceiros comerciais (lojas, restaurantes, academias, etc.).
-</ul>
-
-### Principais Atores
-
-<ul>
-	<li>Sócio Torcedor**: O torcedor cadastrado no programa, que possui diferentes níveis de adesão e benefícios.
-	<li>Clube (Botafogo de Futebol e Regatas)**: Responsável por gerenciar o programa, estabelecer parcerias e promover os eventos e benefícios.
-	<li>Fornecedores e Parceiros Comerciais**: Empresas e lojas que oferecem benefícios exclusivos aos sócios.
-</ul>
-
-### Dados Essenciais
+  ## 2. Resumo sobre o Negócio
 
 
-<ul>
-	<li>Informações pessoais dos sócios (nome, CPF, endereço, e-mail…).
-	<li>Dados de adesão ao programa (tipo de plano, data de adesão, status…).
- 	<li>Histórico de benefícios e utilização de serviços.
- 	<li>Informações sobre pagamentos e renovação de planos.
- 	<li>Detalhes de eventos exclusivos e ingressos adquiridos.
-</ul>
+  O programa de sócios torcedores "Camisa 7" do Botafogo de Futebol e Regatas visa fortalecer a relação entre o clube e seus torcedores, oferecendo benefícios exclusivos para aqueles que aderirem ao programa. Atuando no setor esportivo e de entretenimento, o programa permite que os torcedores apoiem diretamente o clube, contribuindo para a sustentabilidade financeira e participando de um modelo de engajamento que vai além dos jogos.
 
-### Fluxos de Processos Cotidianos
+  ### Ramo de Atuação
 
 
-<ul>
-	<li>Adesão e Cancelamento**: Processo pelo qual o torcedor adere ao programa ou cancela sua inscrição.
- 	<li>Gerenciamento de Benefícios**: Atribuição e gestão dos benefícios que cada sócio tem direito, de acordo com o plano.
- 	<li>Compra de Ingressos**: Prioridade e descontos na compra de ingressos para partidas, com controle de disponibilidade e acesso.
- 	<li>Renovação de Planos**: Procedimento para renovação automática ou manual dos planos dos sócios.
-</ul>
+  O "Camisa 7" opera no mercado de fidelização esportiva, focado em oferecer vantagens exclusivas aos sócios torcedores, como prioridade na compra de ingressos, descontos em produtos oficiais, acesso a eventos exclusivos e outras experiências voltadas para os fãs.
 
-### Regras e Restrições
+  ### Tipos de Serviços e Benefícios
 
+  <ul>
+    <li>Prioridade e desconto na compra de ingressos para jogos do Botafogo.
+    <li>Descontos em produtos oficiais do clube e de parceiros.
+    <li>Acesso a áreas exclusivas do estádio.
+    <li>Possibilidade de participar de eventos e experiências únicas com o clube, como visitas ao estádio e encontros com jogadores.
+    <li>Benefícios relacionados a parceiros comerciais (lojas, restaurantes, academias, etc.).
+  </ul>
 
-<ul>
-	 <li>Cada sócio tem direito a um único cadastro, identificado pelo CPF.
-	 <li>O sócio deve manter as mensalidades em dia para usufruir dos benefícios.
-	 <li>Há limites de quantidade e frequência para alguns benefícios, como a compra de ingressos com desconto.
-	 <li>As vantagens e os preços podem variar conforme o plano escolhido pelo torcedor.
-</ul>
+  ### Principais Atores
+
+  <ul>
+    <li>Sócio Torcedor**: O torcedor cadastrado no programa, que possui diferentes níveis de adesão e benefícios.
+    <li>Clube (Botafogo de Futebol e Regatas)**: Responsável por gerenciar o programa, estabelecer parcerias e promover os eventos e benefícios.
+    <li>Fornecedores e Parceiros Comerciais**: Empresas e lojas que oferecem benefícios exclusivos aos sócios.
+  </ul>
+
+  ### Dados Essenciais
+
+  <ul>
+    <li>Informações pessoais dos sócios (nome, CPF, endereço, e-mail…).
+    <li>Dados de adesão ao programa (tipo de plano, data de adesão, status…).
+    <li>Histórico de benefícios e utilização de serviços.
+    <li>Informações sobre pagamentos e renovação de planos.
+    <li>Detalhes de eventos exclusivos e ingressos adquiridos.
+  </ul>
+
+  ### Fluxos de Processos Cotidianos
+
+  <ul>
+    <li>Adesão e Cancelamento**: Processo pelo qual o torcedor adere ao programa ou cancela sua inscrição.
+    <li>Gerenciamento de Benefícios**: Atribuição e gestão dos benefícios que cada sócio tem direito, de acordo com o plano.
+    <li>Compra de Ingressos**: Prioridade e descontos na compra de ingressos para partidas, com controle de disponibilidade e acesso.
+    <li>Renovação de Planos**: Procedimento para renovação automática ou manual dos planos dos sócios.
+  </ul>
+
+  ### Regras e Restrições
+
+  <ul>
+    <li>Cada sócio tem direito a um único cadastro, identificado pelo CPF.
+    <li>O sócio deve manter as mensalidades em dia para usufruir dos benefícios.
+    <li>Há limites de quantidade e frequência para alguns benefícios, como a compra de ingressos com desconto.
+    <li>As vantagens e os preços podem variar conforme o plano escolhido pelo torcedor.
+  </ul>
+</details>
+
 # Modelo Conceitual (MER)
-
 
 ## Introdução
 
@@ -90,13 +86,13 @@ O Modelo Conceitual é a primeira etapa na criação de um banco de dados e repr
 No Modelo Conceitual, usamos o Modelo Entidade-Relacionamento (MER) para identificar:
 
 <ul>
-	<li> **Entidades**: Representam os principais elementos do sistema, como pessoas, objetos ou eventos. Cada entidade é algo do “mundo real” que deve ser armazenado no banco de dados. No caso deste trabalho, as entidades incluem Sócio, Plano, Benefício, Ingresso, Pagamento, Setor_Estadio, Evento_Exclusivo, entre outras.
+  <li> Entidades: Representam os principais elementos do sistema, como pessoas, objetos ou eventos. Cada entidade é algo do “mundo real” que deve ser armazenado no banco de dados. No caso deste trabalho, as entidades incluem Sócio, Plano, Benefício, Ingresso, Pagamento, Setor_Estadio, Evento_Exclusivo, entre outras.
 
-	<li> **Atributos**: São as características ou informações relevantes sobre cada entidade. Por exemplo, a entidade Sócio possui atributos como Nome, CPF, Endereço, Telefone, e Pontos_Socio. Esses atributos são as informações que devem ser registradas para cada instância da entidade.
+  <li> Atributos: São as características ou informações relevantes sobre cada entidade. Por exemplo, a entidade Sócio possui atributos como Nome, CPF, Endereço, Telefone, e Pontos_Socio. Esses atributos são as informações que devem ser registradas para cada instância da entidade.
 
-	<li> **Relacionamentos**: Descrevem como as entidades estão conectadas. Cada relacionamento possui uma cardinalidade, que indica o tipo de ligação entre as entidades, como um-para-um (1:1), um-para-muitos (1:N), ou muitos-para-muitos (N:N). Os relacionamentos entre entidades são essenciais para definir a lógica de como os dados se conectam no sistema.
+  <li> Relacionamentos: Descrevem como as entidades estão conectadas. Cada relacionamento possui uma cardinalidade, que indica o tipo de ligação entre as entidades, como um-para-um (1:1), um-para-muitos (1:N), ou muitos-para-muitos (N:N). Os relacionamentos entre entidades são essenciais para definir a lógica de como os dados se conectam no sistema.
 
-	<li> **Cardinalidade**: Define o número de instâncias de uma entidade que podem se associar a instâncias de outra entidade. Por exemplo, a relação entre Sócio e Plano é N:1, indicando que um sócio está associado a um único plano, mas um plano pode ter vários sócios.
+  <li> Cardinalidade: Define o número de instâncias de uma entidade que podem se associar a instâncias de outra entidade. Por exemplo, a relação entre Sócio e Plano é N:1, indicando que um sócio está associado a um único plano, mas um plano pode ter vários sócios.
 </ul>
 
 ## Como o Modelo Conceitual foi Feito neste Trabalho
@@ -105,19 +101,17 @@ Neste trabalho, o Modelo Conceitual do sistema foi desenvolvido para organizar o
 
 ### Principais Etapas do Desenvolvimento do Modelo Conceitual:
 
-
 #### Identificação das Entidades:
-
 
 As principais entidades identificadas foram:
 <ul>
-	<li> **Sócio**: Representa os membros do programa de sócios torcedores.
-	<li> **Plano**: Representa os diferentes tipos de planos disponíveis para os sócios.
-	<li> **Benefício**: Representa os benefícios oferecidos nos planos.
-	<li> **Ingresso**: Representa os ingressos para eventos (jogos) que os sócios podem comprar com desconto.
-	<li> **Setor_Estadio**: Representa as diferentes áreas do estádio onde os sócios podem adquirir ingressos.
-	<li> **Pagamento**: Representa os pagamentos feitos pelos sócios para manterem sua adesão ao plano.
-	<li> **Evento_Exclusivo**: Representa os eventos exclusivos disponíveis apenas para os sócios do clube.
+	<li> Sócio: Representa os membros do programa de sócios torcedores.
+	<li> Plano: Representa os diferentes tipos de planos disponíveis para os sócios.
+	<li> Benefício: Representa os benefícios oferecidos nos planos.
+	<li> Ingresso: Representa os ingressos para eventos (jogos) que os sócios podem comprar com desconto.
+	<li> Setor_Estadio: Representa as diferentes áreas do estádio onde os sócios podem adquirir ingressos.
+	<li> Pagamento: Representa os pagamentos feitos pelos sócios para manterem sua adesão ao plano.
+	<li> Evento_Exclusivo: Representa os eventos exclusivos disponíveis apenas para os sócios do clube.
 </ul>
 
 #### Definição dos Atributos:
@@ -133,11 +127,11 @@ Cada entidade recebeu uma série de atributos que descrevem suas característica
 
 Para capturar as conexões entre as entidades, foram definidos vários relacionamentos, incluindo:
 <ul>
-  <li> **ASSOCIADO_A**: Relaciona Sócio e Plano, indicando que cada sócio é associado a um único plano, mas um plano pode ter vários sócios.
-  <li> **REALIZA**: Relaciona Sócio e Pagamento, indicando que um sócio pode fazer vários pagamentos.
-  <li> **COMPRA**: Relaciona Sócio e Ingresso, indicando que um sócio pode comprar vários ingressos.
-  <li> **PARTICIPA**: Relaciona Sócio e Evento_Exclusivo via uma tabela intermediária, permitindo que sócios se inscrevam para participar de eventos exclusivos.
-  <li> **INCLUI**: Representa a relação N:N entre Plano e Benefício. Essa relação indica que um plano pode incluir vários benefícios, e um benefício pode estar disponível em vários planos.
+  <li> ASSOCIADO_A: Relaciona Sócio e Plano, indicando que cada sócio é associado a um único plano, mas um plano pode ter vários sócios.
+  <li> REALIZA: Relaciona Sócio e Pagamento, indicando que um sócio pode fazer vários pagamentos.
+  <li> COMPRA: Relaciona Sócio e Ingresso, indicando que um sócio pode comprar vários ingressos.
+  <li> PARTICIPA: Relaciona Sócio e Evento_Exclusivo via uma tabela intermediária, permitindo que sócios se inscrevam para participar de eventos exclusivos.
+  <li> INCLUI: Representa a relação N:N entre Plano e Benefício. Essa relação indica que um plano pode incluir vários benefícios, e um benefício pode estar disponível em vários planos.
 </ul>
 
 #### Ajustes e Correções no Modelo Conceitual:
@@ -244,9 +238,7 @@ O Modelo Lógico para o programa de sócios torcedores "Camisa 7" foi desenvolvi
 
 # Modelo Físico
 
-
 ## Introdução
-
 
 O Modelo Físico é a etapa final de modelagem de dados, onde os conceitos do modelo lógico são traduzidos diretamente para o formato de um banco de dados relacional. Essa etapa envolve a definição detalhada de cada tabela, incluindo os tipos de dados, restrições, chaves primárias e estrangeiras, e qualquer regra adicional necessária para garantir a integridade e consistência dos dados.
 
@@ -254,15 +246,12 @@ Neste trabalho sobre o programa de sócios torcedores "Camisa 7" do Botafogo, o 
 
 ## Estrutura e Aplicação do Modelo Físico ao Programa de Sócios Torcedores
 
-
 ### Definição de Tabelas com Tipos de Dados Específicos
-
 
 - Cada entidade do modelo lógico foi convertida em uma tabela física com um conjunto de campos (atributos).
 - Os tipos de dados foram escolhidos com base na natureza das informações armazenadas: por exemplo, `VARCHAR` para textos como nome e e-mail, `DATE` para datas, `DECIMAL` para valores monetários e `BOOLEAN` para status.
 
 ### Chaves Primárias e Unicidade dos Registros
-
 
 - Em cada tabela, um campo foi escolhido como chave primária (PK) para garantir que cada registro seja único. As chaves primárias permitem identificar cada linha de maneira exclusiva.
 - Em tabelas intermediárias (como `Plano_Beneficio` para o relacionamento N:N entre `Plano` e `Benefício`), uma chave primária composta foi definida usando múltiplos campos para garantir a unicidade das combinações entre entidades.
