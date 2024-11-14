@@ -26,40 +26,49 @@ O "Camisa 7" opera no mercado de fidelização esportiva, focado em oferecer van
 
 ### Tipos de Serviços e Benefícios
 
- **Prioridade e desconto na compra de ingressos para jogos do Botafogo.
- **Descontos em produtos oficiais do clube e de parceiros.
- **Acesso a áreas exclusivas do estádio.
- **Possibilidade de participar de eventos e experiências únicas com o clube, como visitas ao estádio e encontros com jogadores.
- **Benefícios relacionados a parceiros comerciais (lojas, restaurantes, academias, etc.).
+<ul>
+	<li>Prioridade e desconto na compra de ingressos para jogos do Botafogo.
+	<li>Descontos em produtos oficiais do clube e de parceiros.
+	<li>Acesso a áreas exclusivas do estádio.
+	<li>Possibilidade de participar de eventos e experiências únicas com o clube, como visitas ao estádio e encontros com jogadores.
+	<li>Benefícios relacionados a parceiros comerciais (lojas, restaurantes, academias, etc.).
+</ul>
 
 ### Principais Atores
 
- **Sócio Torcedor**: O torcedor cadastrado no programa, que possui diferentes níveis de adesão e benefícios.
- **Clube (Botafogo de Futebol e Regatas)**: Responsável por gerenciar o programa, estabelecer parcerias e promover os eventos e benefícios.
- **Fornecedores e Parceiros Comerciais**: Empresas e lojas que oferecem benefícios exclusivos aos sócios.
+<ul>
+	<li>Sócio Torcedor**: O torcedor cadastrado no programa, que possui diferentes níveis de adesão e benefícios.
+	<li>Clube (Botafogo de Futebol e Regatas)**: Responsável por gerenciar o programa, estabelecer parcerias e promover os eventos e benefícios.
+	<li>Fornecedores e Parceiros Comerciais**: Empresas e lojas que oferecem benefícios exclusivos aos sócios.
+</ul>
 
 ### Dados Essenciais
 
- **Informações pessoais dos sócios (nome, CPF, endereço, e-mail…).
- **Dados de adesão ao programa (tipo de plano, data de adesão, status…).
- **Histórico de benefícios e utilização de serviços.
- **Informações sobre pagamentos e renovação de planos.
- **Detalhes de eventos exclusivos e ingressos adquiridos.
+<ul>
+	<li>Informações pessoais dos sócios (nome, CPF, endereço, e-mail…).
+	<li>Dados de adesão ao programa (tipo de plano, data de adesão, status…).
+ 	<li>Histórico de benefícios e utilização de serviços.
+ 	<li>Informações sobre pagamentos e renovação de planos.
+ 	<li>Detalhes de eventos exclusivos e ingressos adquiridos.
+</ul>
 
 ### Fluxos de Processos Cotidianos
 
- **Adesão e Cancelamento**: Processo pelo qual o torcedor adere ao programa ou cancela sua inscrição.
- **Gerenciamento de Benefícios**: Atribuição e gestão dos benefícios que cada sócio tem direito, de acordo com o plano.
- **Compra de Ingressos**: Prioridade e descontos na compra de ingressos para partidas, com controle de disponibilidade e acesso.
- **Renovação de Planos**: Procedimento para renovação automática ou manual dos planos dos sócios.
+<ul>
+	<li>Adesão e Cancelamento**: Processo pelo qual o torcedor adere ao programa ou cancela sua inscrição.
+ 	<li>Gerenciamento de Benefícios**: Atribuição e gestão dos benefícios que cada sócio tem direito, de acordo com o plano.
+ 	<li>Compra de Ingressos**: Prioridade e descontos na compra de ingressos para partidas, com controle de disponibilidade e acesso.
+ 	<li>Renovação de Planos**: Procedimento para renovação automática ou manual dos planos dos sócios.
+</ul>
 
 ### Regras e Restrições
 
- **Cada sócio tem direito a um único cadastro, identificado pelo CPF.
- **O sócio deve manter as mensalidades em dia para usufruir dos benefícios.
- **Há limites de quantidade e frequência para alguns benefícios, como a compra de ingressos com desconto.
- **As vantagens e os preços podem variar conforme o plano escolhido pelo torcedor.
-
+<ul>
+	 <li>Cada sócio tem direito a um único cadastro, identificado pelo CPF.
+	 <li>O sócio deve manter as mensalidades em dia para usufruir dos benefícios.
+	 <li>Há limites de quantidade e frequência para alguns benefícios, como a compra de ingressos com desconto.
+	 <li>As vantagens e os preços podem variar conforme o plano escolhido pelo torcedor.
+</ul>
 # Modelo Conceitual (MER)
 
 ## Introdução
@@ -70,13 +79,15 @@ O Modelo Conceitual é a primeira etapa na criação de um banco de dados e repr
 
 No Modelo Conceitual, usamos o Modelo Entidade-Relacionamento (MER) para identificar:
 
-- **Entidades**: Representam os principais elementos do sistema, como pessoas, objetos ou eventos. Cada entidade é algo do “mundo real” que deve ser armazenado no banco de dados. No caso deste trabalho, as entidades incluem Sócio, Plano, Benefício, Ingresso, Pagamento, Setor_Estadio, Evento_Exclusivo, entre outras.
+<ul>
+	<li> **Entidades**: Representam os principais elementos do sistema, como pessoas, objetos ou eventos. Cada entidade é algo do “mundo real” que deve ser armazenado no banco de dados. No caso deste trabalho, as entidades incluem Sócio, Plano, Benefício, Ingresso, Pagamento, Setor_Estadio, Evento_Exclusivo, entre outras.
 
-- **Atributos**: São as características ou informações relevantes sobre cada entidade. Por exemplo, a entidade Sócio possui atributos como Nome, CPF, Endereço, Telefone, e Pontos_Socio. Esses atributos são as informações que devem ser registradas para cada instância da entidade.
+	<li> **Atributos**: São as características ou informações relevantes sobre cada entidade. Por exemplo, a entidade Sócio possui atributos como Nome, CPF, Endereço, Telefone, e Pontos_Socio. Esses atributos são as informações que devem ser registradas para cada instância da entidade.
 
-- **Relacionamentos**: Descrevem como as entidades estão conectadas. Cada relacionamento possui uma cardinalidade, que indica o tipo de ligação entre as entidades, como um-para-um (1:1), um-para-muitos (1:N), ou muitos-para-muitos (N:N). Os relacionamentos entre entidades são essenciais para definir a lógica de como os dados se conectam no sistema.
+	<li> **Relacionamentos**: Descrevem como as entidades estão conectadas. Cada relacionamento possui uma cardinalidade, que indica o tipo de ligação entre as entidades, como um-para-um (1:1), um-para-muitos (1:N), ou muitos-para-muitos (N:N). Os relacionamentos entre entidades são essenciais para definir a lógica de como os dados se conectam no sistema.
 
-- **Cardinalidade**: Define o número de instâncias de uma entidade que podem se associar a instâncias de outra entidade. Por exemplo, a relação entre Sócio e Plano é N:1, indicando que um sócio está associado a um único plano, mas um plano pode ter vários sócios.
+	<li> **Cardinalidade**: Define o número de instâncias de uma entidade que podem se associar a instâncias de outra entidade. Por exemplo, a relação entre Sócio e Plano é N:1, indicando que um sócio está associado a um único plano, mas um plano pode ter vários sócios.
+</ul>
 
 ## Como o Modelo Conceitual foi Feito neste Trabalho
 
@@ -87,13 +98,15 @@ Neste trabalho, o Modelo Conceitual do sistema foi desenvolvido para organizar o
 #### Identificação das Entidades:
 
 As principais entidades identificadas foram:
-- **Sócio**: Representa os membros do programa de sócios torcedores.
-- **Plano**: Representa os diferentes tipos de planos disponíveis para os sócios.
-- **Benefício**: Representa os benefícios oferecidos nos planos.
-- **Ingresso**: Representa os ingressos para eventos (jogos) que os sócios podem comprar com desconto.
-- **Setor_Estadio**: Representa as diferentes áreas do estádio onde os sócios podem adquirir ingressos.
-- **Pagamento**: Representa os pagamentos feitos pelos sócios para manterem sua adesão ao plano.
-- **Evento_Exclusivo**: Representa os eventos exclusivos disponíveis apenas para os sócios do clube.
+<ul>
+	<li> **Sócio**: Representa os membros do programa de sócios torcedores.
+	<li> **Plano**: Representa os diferentes tipos de planos disponíveis para os sócios.
+	<li> **Benefício**: Representa os benefícios oferecidos nos planos.
+	<li> **Ingresso**: Representa os ingressos para eventos (jogos) que os sócios podem comprar com desconto.
+	<li> **Setor_Estadio**: Representa as diferentes áreas do estádio onde os sócios podem adquirir ingressos.
+	<li> **Pagamento**: Representa os pagamentos feitos pelos sócios para manterem sua adesão ao plano.
+	<li> **Evento_Exclusivo**: Representa os eventos exclusivos disponíveis apenas para os sócios do clube.
+</ul>
 
 #### Definição dos Atributos:
 
