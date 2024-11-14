@@ -1,8 +1,8 @@
-# Programa de Sócio Torcedor
+# Trabalho Prático 1 - Sócio Torcedor
+
+# 1. Introdução ao Programa de Sócio Torcedor
 
 <details>
-
-<summary>📘 1. Introdução ao Programa de Sócio Torcedor</summary>
 
   ## 1. Introdução ao Programa de Sócio Torcedor
 
@@ -78,9 +78,9 @@
   </ul>
 </details>
 
-<details>
+# Tópico 2 - Modelo Conceitual (MER)
 
-<summary>📘 2. Modelo Conceitual (MER) </summary>
+<details>
 
 # Modelo Conceitual (MER)
 
@@ -150,9 +150,9 @@ Após definir as entidades e relacionamentos, ajustes foram feitos para melhorar
 O modelo conceitual construído para o programa "Camisa 7" do Botafogo proporciona uma base clara e bem estruturada para o sistema de banco de dados. Ele descreve como cada entidade se relaciona com as demais e garante que todas as informações relevantes estão organizadas de forma lógica e compreensível. Esse modelo é fundamental para a próxima etapa do desenvolvimento do banco de dados, onde será criado o Modelo Lógico, que traduzirá essa visão conceitual em um formato mais próximo da implementação no banco de dados.
 </details>
 
-<details>
+# Tópico 3 - Modelo Lógico (Diagrama de Engenharia de Informação)
 
-<summary>📘 3. Modelo Lógico - Diagrama de Engenharia de Informação</summary>
+<details>
 
 # Modelo Lógico - Diagrama de Engenharia de Informação
 
@@ -249,9 +249,9 @@ O Modelo Lógico para o programa de sócios torcedores "Camisa 7" foi desenvolvi
 - Isso permite ao sistema registrar e gerenciar a participação dos sócios em eventos especiais oferecidos pelo programa.
 </details>
 
-<details>
+# Tópico 4 -  Modelo Físico
 
-<summary>📘 4. Modelo Físico</summary>
+<details>
 
 # Modelo Físico
 
@@ -337,9 +337,9 @@ O Modelo Físico para o programa de sócios torcedores "Camisa 7" foi projetado 
 O Modelo Físico transforma o projeto conceitual e lógico em uma estrutura prática e implementável. Ele define como cada dado será armazenado e acessado, garantindo a integridade, consistência e organização do banco de dados para o programa "Camisa 7". Com essa estrutura física implementada no SGBD, o sistema será capaz de gerenciar as inscrições, pagamentos, benefícios, ingressos e eventos dos sócios de maneira eficiente e escalável.
 </details>
 
-<details>
+# Tópico 5 - Estapas de Normalização
 
-<summary>📘 5. Estapas de Normalização</summary>
+<details>
 
 # Etapas de Normalização e Estrutura do Banco de Dados
 
@@ -421,9 +421,9 @@ O Modelo Físico foi projetado para permitir o funcionamento completo do program
 A estrutura do banco de dados para o programa "Camisa 7" foi cuidadosamente normalizada até a Terceira Forma Normal (3FN), garantindo que todos os dados sejam armazenados de forma eficiente e consistente. O Modelo Físico transforma o projeto conceitual e lógico em uma estrutura prática e implementável, assegurando que o sistema seja capaz de gerenciar as inscrições, pagamentos, benefícios, ingressos e eventos dos sócios de maneira eficiente e escalável.
 </details>
 
-<details>
+# Tópico 6 - SQL DDL
 
-<summary>📘 6. SQL DDL</summary>
+<details>
 
 # Programa de Sócios "Camisa 7" - Banco de Dados
 
@@ -543,9 +543,9 @@ CREATE TABLE Plano_Beneficio (
 ```
 </details>
 
-<details>
+# Tópico 7 - SQL DML
 
-<summary>📘 7. SQL DML</summary>
+<details>
 
 # Inserção de Dados - Programa de Sócios "Camisa 7"
 
@@ -632,9 +632,9 @@ VALUES
 ```
 </details>
 
-<details>
+# Tópico 8 - Consultas SQL, Relatórios e Views
 
-<summary>📘 8. Consultas SQL, Relatórios e Views</summary>
+<details>
 
 ## Consultas SQL, Relatórios e Views
 
