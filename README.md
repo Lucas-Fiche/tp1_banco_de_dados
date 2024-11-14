@@ -1004,6 +1004,8 @@ GROUP BY
 
 ```
 
+##### Resultado Obtido
+
 | Nome_Plano   | Total_Pago |
 |--------------|------------|
 | Plano Bronze | 29.99      |
@@ -1025,6 +1027,8 @@ GROUP BY
     Plano.Nome_Plano;
 
 ```
+
+##### Resultado Obtido
 
 | Nome_Plano   | Numero_Pagamentos |
 |--------------|-------------------|
@@ -1051,6 +1055,8 @@ JOIN
 
 ```
 
+##### Resultado Obtido
+
 | Nome         | Email                     | Nome_Plano   | Data_Pagamento | Valor_Pago |
 |--------------|---------------------------|--------------|----------------|------------|
 | Carlos Silva | carlos.silva@example.com  | Plano Bronze | 2023-02-15     | 29.99      |
@@ -1076,6 +1082,8 @@ GROUP BY
     `Sócio`.Nome, `Sócio`.Email, Plano.Nome_Plano;
 
 ```
+
+##### Resultado Obtido
 
 | Nome         | Email                     | Nome_Plano   | Total_Pago |
 |--------------|---------------------------|--------------|------------|
