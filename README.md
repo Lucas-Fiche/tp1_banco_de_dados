@@ -744,8 +744,189 @@ VALUES
 
 ## Consultas SQL, Relatórios e Views
 
-A segunda etapa do trabalho envolve a criação de consultas SQL, relatórios e views que permitirão uma análise detalhada dos dados do programa de sócios "Camisa 7". Abaixo está uma descrição e o código SQL das principais consultas e views para extrair dados, gerar relatórios e acessar informações específicas de maneira organizada e eficiente.
+A última etapa do trabalho envolve a criação de consultas SQL, relatórios e views que permitirão uma análise detalhada dos dados do programa de sócios "Camisa 7". Abaixo está uma descrição e o código SQL das principais consultas e views para extrair dados, gerar relatórios e acessar informações específicas de maneira organizada e eficiente.
 
 ### Consultas SQL
 
 As consultas SQL foram desenvolvidas para responder a diversas necessidades do sistema, como listar sócios ativos, calcular a pontuação acumulada, verificar pagamentos pendentes e identificar benefícios disponíveis para cada sócio.
+
+#### 1. Listar todos os sócios ativos com seus planos
+
+```
+SELECT 
+    s.ID_Socio,
+    s.Nome,
+    s.Email,
+    s.Telefone,
+    s.Data_adesao,
+    s.Pontos_socio,
+    p.Nome_Plano
+FROM 
+    Sócio s
+JOIN 
+    Plano p ON s.ID_Plano = p.ID_Plano
+WHERE 
+    s.Status_socio = TRUE;
+```
+
+#### 2. Relatório de Pagamentos por Sócio
+
+```
+SELECT 
+    s.Nome AS Nome_Socio,
+    p.ID_Pagamento,
+    p.Data_pagamento,
+    p.Valor_pago,
+    p.Metodo_pagamento,
+    p.Status_pagamento
+FROM 
+    Pagamento p
+JOIN 
+    Sócio s ON p.ID_Socio = s.ID_Socio
+ORDER BY 
+    s.Nome, p.Data_pagamento;
+```
+
+#### 3. Benefícios Disponíveis para Cada Plano
+
+```
+SELECT 
+    pl.Nome_Plano,
+    b.Tipo_Beneficio,
+    b.Quantidade_limite,
+    b.Pontos_necessarios,
+    b.Descrição
+FROM 
+    Plano_Beneficio pb
+JOIN 
+    Plano pl ON pb.ID_Plano = pl.ID_Plano
+JOIN 
+    Benefício b ON pb.ID_Beneficio = b.ID_Beneficio
+ORDER BY 
+    pl.Nome_Plano, b.Tipo_Beneficio;
+```
+
+#### 4. Ingressos por Sócio com Detalhes de Desconto
+
+```
+SELECT 
+    s.Nome AS Nome_Socio,
+    i.Jogo,
+    i.Data_jogo,
+    i.Desconto
+FROM 
+    Ingresso i
+JOIN 
+    Sócio s ON i.ID_Socio = s.ID_Socio
+ORDER BY 
+    s.Nome, i.Data_jogo;
+```
+
+#### 5. Eventos Exclusivos com Participação por Sócio
+
+```
+SELECT 
+    ee.Nome_evento,
+    ee.Data_evento,
+    s.Nome AS Nome_Socio,
+    pe.Data_inscricao
+FROM 
+    Evento_Exclusivo ee
+JOIN 
+    Participacao_Evento pe ON ee.ID_Evento = pe.ID_Evento
+JOIN 
+    Sócio s ON pe.ID_Socio = s.ID_Socio
+ORDER BY 
+    ee.Data_evento, s.Nome;
+
+```
+
+#### 6. Total de Pontos Acumulados por Sócio
+
+```
+SELECT 
+    Nome,
+    Pontos_socio
+FROM 
+    Sócio
+ORDER BY 
+    Pontos_socio DESC;
+
+```
+
+#### 7. Valor Total Pago por Cada Sócio
+
+```
+SELECT 
+    s.Nome AS Nome_Socio,
+    SUM(p.Valor_pago) AS Total_Pago
+FROM 
+    Pagamento p
+JOIN 
+    Sócio s ON p.ID_Socio = s.ID_Socio
+GROUP BY 
+    s.Nome
+ORDER BY 
+    Total_Pago DESC;
+
+```
+
+#### 8. Sócios com Benefícios Disponíveis para Resgate
+
+```
+SELECT 
+    s.Nome AS Nome_Socio,
+    b.Tipo_Beneficio,
+    b.Pontos_necessarios,
+    s.Pontos_socio
+FROM 
+    Sócio s
+JOIN 
+    Plano_Beneficio pb ON s.ID_Plano = pb.ID_Plano
+JOIN 
+    Benefício b ON pb.ID_Beneficio = b.ID_Beneficio
+WHERE 
+    s.Pontos_socio >= b.Pontos_necessarios
+ORDER BY 
+    s.Nome;
+
+```
+### Views
+
+Uma view é um objeto que é formado por declarações SELECTs, que retornam uma visualização de dados específica de uma ou mais tabelas de um banco de dados.
+
+#### 1. View para Relatório de Sócios e Seus Planos
+
+```
+CREATE VIEW Relatorio_Socios_Planos AS
+SELECT 
+    s.ID_Socio,
+    s.Nome,
+    s.Email,
+    s.Telefone,
+    s.Data_adesao,
+    s.Pontos_socio,
+    p.Nome_Plano
+FROM 
+    Sócio s
+JOIN 
+    Plano p ON s.ID_Plano = p.ID_Plano;
+```
+
+#### 2. View para Relatório de Pagamentos Realizados
+
+```
+CREATE VIEW Relatorio_Pagamentos AS
+SELECT 
+    s.Nome AS Nome_Socio,
+    p.ID_Pagamento,
+    p.Data_pagamento,
+    p.Valor_pago,
+    p.Metodo_pagamento,
+    p.Status_pagamento
+FROM 
+    Pagamento p
+JOIN 
+    Sócio s ON p.ID_Socio = s.ID_Socio;
+
+```
