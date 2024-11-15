@@ -139,11 +139,12 @@ Para capturar as conexões entre as entidades, foram definidos vários relaciona
   <li> COMPRA: Relaciona Sócio e Ingresso, indicando que um sócio pode comprar vários ingressos.
   <li> PARTICIPA: Relaciona Sócio e Evento_Exclusivo via uma tabela intermediária, permitindo que sócios se inscrevam para participar de eventos exclusivos.
   <li> INCLUI: Representa a relação N:N entre Plano e Benefício. Essa relação indica que um plano pode incluir vários benefícios, e um benefício pode estar disponível em vários planos.
+  <li> REFERE-SE A: Representa a relação 1:1 entre Plano e Pagamento. Essa relação indica que cada plano recebe um pagamento por sócio. 
 </ul>
 
 #### Ajustes e Correções no Modelo Conceitual:
 
-Após definir as entidades e relacionamentos, ajustes foram feitos para melhorar a clareza e a precisão do modelo. Atributos adicionais foram adicionados a algumas relações para capturar informações específicas (por exemplo, a quantidade de ingressos disponíveis para um setor específico). Também foi garantido que as setas de relacionamento estivessem corretamente apontadas das chaves estrangeiras para as chaves primárias correspondentes, reforçando a integridade dos dados no modelo.
+Após definir as entidades e relacionamentos, ajustes foram feitos para melhorar a clareza e a precisão do modelo. Atributos foram adicionados a algumas relações para capturar informações específicas (por exemplo, a quantidade de ingressos disponíveis para um setor específico). Também foi garantido que as setas de relacionamento estivessem corretamente apontadas das chaves estrangeiras para as chaves primárias correspondentes, reforçando a integridade dos dados no modelo.
 
 ### Modelo Conceitual
 
@@ -492,7 +493,7 @@ Após a aplicação das três formas normais, o banco de dados do programa "Cami
 
 ## Estrutura do Banco de Dados no Programa "Camisa 7"
 
-O banco de dados foi projetado para estruturar e organizar todos os dados necessários para o funcionamento do programa de sócios torcedores "Camisa 7", conforme descrito nas seções de normalização e modelagem. 
+O banco de dados foi projetado para estruturar e organizar todos os dados necessários para o funcionamento do programa de sócios torcedores "Camisa 7", conforme descrito nas seções anteriores. 
 
 ### Tabelas e Relacionamentos Principais
 
@@ -526,7 +527,7 @@ O Modelo Físico foi projetado para permitir o funcionamento completo do program
 
 ## Conclusão
 
-A estrutura do banco de dados para o programa "Camisa 7" foi cuidadosamente normalizada até a Terceira Forma Normal (3FN), garantindo que todos os dados sejam armazenados de forma eficiente e consistente. O Modelo Físico transforma o projeto conceitual e lógico em uma estrutura prática e implementável, assegurando que o sistema seja capaz de gerenciar as inscrições, pagamentos, benefícios, ingressos e eventos dos sócios de maneira eficiente e escalável.
+A estrutura do banco de dados para o programa "Camisa 7" foi normalizada até a Terceira Forma Normal (3FN), garantindo que todos os dados sejam armazenados de forma eficiente e consistente. O Modelo Físico transforma o projeto conceitual e lógico em uma estrutura prática e implementável, assegurando que o sistema seja capaz de gerenciar as inscrições, pagamentos, benefícios, ingressos e eventos dos sócios de maneira eficiente e escalável.
 </details>
 
 ## Tópico 6 - SQL DDL
