@@ -1134,8 +1134,103 @@ JOIN
 ```
 </details>
 
+## Tópico 9 - Integração com Front-End
+
 <details>
 
-    ## Integração com Front-End
+# Programa Sócio Camisa 7
+
+A parte final do projeto é uma aplicação web desenvolvida para gerenciar o programa de sócios do "Camisa 7". Ele permite operações como cadastro, remoção, consulta de dados e visualizações dinâmicas para facilitar o gerenciamento de sócios, pagamentos, benefícios e eventos.
+
+## Funcionalidades do Site
+
+A aplicação é dividida em abas, cada uma responsável por uma funcionalidade específica:
+1. **Dashboard**:
+   - Exibe métricas gerais como número de sócios ativos, total de pagamentos recebidos, média de pontos por sócio e próximos eventos.
+   - Gráficos interativos mostram a distribuição de sócios por plano e pagamentos ao longo do tempo.
+
+2. **Sócios Ativos**:
+   - Lista sócios ativos com informações detalhadas como nome, e-mail, telefone, pontos acumulados, e plano atual.
+
+3. **Pontos dos Sócios**:
+   - Mostra uma lista de pontos acumulados por sócio.
+   - Inclui gráficos para análise de distribuição de pontos e métricas como sócio com mais pontos e média geral.
+
+4. **Relatório de Pagamentos**:
+   - Detalha os pagamentos realizados, com opções de visualização por método, status e datas.
+   - Gráficos mostram a distribuição de métodos de pagamento e evolução dos pagamentos ao longo do tempo.
+
+5. **Benefícios Disponíveis**:
+   - Apresenta benefícios disponíveis com base nos pontos acumulados dos sócios.
+   - Gráficos mostram os pontos necessários para diferentes tipos de benefícios e sócios elegíveis.
+
+6. **Ingressos por Sócio**:
+   - Lista ingressos adquiridos pelos sócios, incluindo informações de descontos aplicados e próximos jogos.
+   - Exibe gráficos sobre a distribuição de ingressos e descontos oferecidos.
+
+7. **Eventos por Sócio**:
+   - Detalha eventos exclusivos e participações dos sócios.
+   - Inclui métricas como eventos futuros, participações por evento e gráficos de análise.
+
+8. **Gerenciamento**:
+   - Permite gerenciar sócios (cadastro, remoção, e ajuste de pontos), ingressos, e eventos.
+   - Inclui funcionalidades para associar sócios a eventos.
+
+9. **Busca Específica**:
+   - Oferece consultas detalhadas para buscar informações sobre sócios, ingressos, pagamentos, eventos ou benefícios.
+
+## Bibliotecas Utilizadas
+
+1. **Streamlit**:
+   - Framework usado para criar a interface web de forma rápida e interativa.
+   - Ele permite adicionar componentes como tabelas, gráficos e entradas de formulário facilmente.
+   - A aplicação é executada localmente e pode ser acessada pelo navegador.
+
+2. **MySQL Connector**:
+   - Biblioteca usada para conectar ao banco de dados MySQL, realizar consultas e executar comandos SQL.
+
+3. **Pandas**:
+   - Utilizada para manipulação e análise de dados, transformando resultados das consultas SQL em DataFrames, facilitando a exibição e análise.
+
+4. **Plotly**:
+   - Ferramenta para criar gráficos interativos, como barras, pizza e histogramas, diretamente na interface do Streamlit.
+
+## O que é o Streamlit?
+
+O **Streamlit** é uma biblioteca Python para criar aplicações web de maneira rápida e simplificada. Ele é ideal para prototipagem de ferramentas analíticas e dashboards interativos, permitindo que desenvolvedores foquem na lógica e funcionalidades sem se preocupar com a estrutura complexa de front-end. O Streamlit oferece:
+- Componentes prontos para entrada de dados, tabelas e gráficos.
+- Atualização em tempo real conforme o usuário interage com o site.
+- Integração com bibliotecas como Pandas, NumPy e Plotly.
+
+## Organização do Projeto
+
+1. **Arquivo Principal**:
+   - `app.py`: Contém toda a lógica do site, incluindo:
+     - Configuração do layout.
+     - Funções para conexão com o banco de dados.
+     - Operações de CRUD para sócios, ingressos e eventos.
+     - Funções de visualização de dados e gráficos.
+
+2. **Banco de Dados**:
+   - O projeto utiliza um banco de dados MySQL chamado `ProgramaSocioCamisa7`, que contém tabelas como:
+     - `Sócio`: Dados de sócios (nome, e-mail, CPF, pontos, etc.).
+     - `Plano`: Informações sobre planos (bronze, prata e ouro).
+     - `Benefício`: Benefícios disponíveis e seus requisitos.
+     - `Ingresso`: Informações sobre ingressos e jogos.
+     - `Evento_Exclusivo`: Eventos exclusivos para sócios.
+     - `Pagamento`: Histórico de pagamentos.
+
+3. **Componentes do Front-End**:
+   - Cada aba representa uma funcionalidade específica, organizada com gráficos, métricas e formulários interativos.
+
+4. **Estilo e Interatividade**:
+   - Os gráficos são estilizados usando o Plotly para maior interatividade.
+   - O layout é configurado para responsividade, aproveitando as colunas do Streamlit para organização.
+
+5. **Fluxo do Sistema**:
+   - O usuário interage com a aplicação via interface web, que envia comandos ao banco de dados MySQL.
+   - Os resultados são processados em Python e exibidos dinamicamente no site.
+
+---
 
 </details>
