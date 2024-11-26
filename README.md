@@ -1132,3 +1132,10 @@ JOIN
     Sócio s ON p.ID_Socio = s.ID_Socio;
 
 ```
+</details>
+
+<details>
+
+    ## Integração com Front-End
+
+</details>

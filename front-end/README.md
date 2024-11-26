@@ -13,7 +13,6 @@ Este projeto é uma aplicação interativa desenvolvida com **Streamlit**, **MyS
 
 ### 👥 **Sócios**
 - Visualização de sócios ativos.
-- Adição, remoção e gerenciamento de pontos dos sócios.
 
 ### 🏅 **Pontos dos Sócios**
 - Relatório detalhado de pontos acumulados.
@@ -37,7 +36,7 @@ Este projeto é uma aplicação interativa desenvolvida com **Streamlit**, **MyS
 
 ### ⚙️ **Gerenciamento**
 - Gerenciamento de sócios, ingressos e eventos.
-- Adição e remoção de participações.
+- Adição, remoção e gerenciamento de sócios, pontos dos sócios, pagamentos, benefícios, eventos e ingressos.
 
 ### 🔍 **Busca Específica**
 - Busca detalhada por sócios, ingressos, eventos, pagamentos e benefícios.
