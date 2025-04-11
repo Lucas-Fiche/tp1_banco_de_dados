@@ -76,6 +76,16 @@
     <li>Há limites de quantidade e frequência para alguns benefícios, como a compra de ingressos com desconto.
     <li>As vantagens e os preços podem variar conforme o plano escolhido pelo torcedor.
   </ul>
+
+## Como rodar no seu sistema?
+
+- Clone esse repositório
+- Rode os comandos:
+    - pip install streamlit (caso não tenha a biblioteca streamlit)
+    - pip install pandas plotly mysql-connector-python (caso não tenha essas bibliotecas)
+    - stramlit run app.py 
+        - Entre na url localhost em seu navegador. 
+
 </details>
 
 ## Tópico 2 - Modelo Conceitual (MER)
